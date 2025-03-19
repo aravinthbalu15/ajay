@@ -4,20 +4,20 @@ import { useNavigate } from "react-router-dom";
 import "../Style/ImageCategory.css";
 
 // Import images correctly
-import image1 from "../images/chrismas.png";
-import image2 from "../images/Easter.png";
-import image3 from "../images/GoodFriday.png";
-import image4 from "../images/NewYear.png";
-import image5 from "../images/allsoul.png";
-import image6 from "../images/others.png";
+import image1 from "../images/january.png";
+import image2 from "../images/feb.png";
+import image3 from "../images/march.png";
+import image4 from "../images/april.png";
+import image5 from "../images/may.png";
+import image6 from "../images/june.png";
 
 const categories = [
-  { title: "Christmas", image: image1, path: "/christmas" },
-  { title: "Easter Sunday", image: image2, path: "/easter" },
-  { title: "Good Friday", image: image3, path: "/goodfriday" },
-  { title: "New Year", image: image4, path: "/newyear" },
-  { title: "All Souls' Day", image: image5, path: "/all-souls" },
-  { title: "Others", image: image6, path: "/others" }
+  { title: "January", image: image1, path: "/christmas" },
+  { title: "February", image: image2, path: "/easter" },
+  { title: "March", image: image3, path: "/goodfriday" },
+  { title: "April", image: image4, path: "/newyear" },
+  { title: "May", image: image5, path: "/all-souls" },
+  { title: "June", image: image6, path: "/others" }
 ];
 
 const ImageCategory = () => {

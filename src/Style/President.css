@@ -1,109 +1,93 @@
-/* Main Wrapper */
-.president-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 20px;
+/* Section title */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
 }
 
-/* Main Container */
-.president-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    width: 100%;
-    gap: 20px;
+/* Card Styling */
+.president-card {
+  width: 280px;
+  height: auto;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  padding: 20px;
+  text-align: center;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
-/* Left Side - Image */
-.president-image-section {
-    flex-shrink: 0;
+.president-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
 }
 
-.president-image {
-    width: 500px;
-    height: 350px;
-    border-radius: 10px;
-    object-fit: cover; /* Ensures the image fills the container without distortion */
-    filter: contrast(1.2) brightness(1.1); /* Enhances clarity */
+/* Image Styling */
+.president-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ddd;
+  margin-bottom: 10px;
 }
 
-
-/* Right Side - Text */
-.president-text-section {
-    flex: 1;
-    max-width: 600px;
-}
-
-/* President Title Styling */
-.president-title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    font-family: 'Playfair Display', serif; /* Elegant font */
-}
-
-/* Bold Styling for Title */
-.bold-title {
-    font-weight: bold;
-    font-size: 40px;
-}
-
-/* Colored Lines on Left and Right */
-.line-left, .line-right {
-    display: inline-block;
-    width: 50px;
-    height: 3px;
-    background-color: #800000; /* Dark red color */
-}
-
-/* Text Styling */
-.president-description {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333;
-}
-
-/* "More" Button */
-.president-more-btn {
-    background-color: #800000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 15px;
-    border-radius: 5px;
-    transition: background 0.3s ease-in-out;
-}
-
-.president-more-btn:hover {
-    background-color: #a00000;
+/* Name Styling */
+.president-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
 }
 
 /* Responsive Design */
+@media (max-width: 992px) {
+  .president-card {
+    width: 250px;
+  }
+
+  .president-img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
 @media (max-width: 768px) {
-    .president-container {
-        flex-direction: column;
-        text-align: center;
-    }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .president-text-section {
-        max-width: 100%;
-    }
+  .president-card {
+    width: 90%;
+    max-width: 300px;
+  }
 
-    .president-image {
-        max-width: 300px;
-    }
+  .president-img {
+    width: 160px;
+    height: 160px;
+  }
 }
 
 @media (max-width: 480px) {
-    .president-image {
-        max-width: 250px;
-    }
+  .president-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .president-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .president-name {
+    font-size: 1rem;
+  }
 }

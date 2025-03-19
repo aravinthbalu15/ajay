@@ -1,4 +1,5 @@
 import React from 'react';
+import "../Style/Family.css"; // Ensure you create and import this CSS file
 
 const Family = () => {
   const stats = [
@@ -10,11 +11,13 @@ const Family = () => {
 
   return (
     <div className="container text-center my-5">
-      <div className="row">
+      <div className="row justify-content-center">
         {stats.map((stat, index) => (
-          <div key={index} className="col-md-3 col-sm-6 mb-3">
-            <h2 className="text-success">{stat.value}</h2>
-            <p className="text-muted">{stat.label}</p>
+          <div key={index} className="col-lg-3 col-md-6 col-sm-6 col-12 mb-4">
+            <div className="stat-box">
+              <h2 className="stat-value">{stat.value}</h2>
+              <p className="stat-label">{stat.label}</p>
+            </div>
           </div>
         ))}
       </div>

@@ -6,6 +6,9 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     include: ['react-bootstrap', 'bootstrap']
+  },
+  server: {
+    host: true,  // Exposes to the local network
+    port: 5173   // Optional: Specify a custom port
   }
 })
-

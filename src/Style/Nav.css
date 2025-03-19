@@ -84,24 +84,36 @@
   position: absolute;
   background: rgba(30, 30, 47, 0.95);
   border-radius: 8px;
-  padding: 10px 0;
+  /* padding: 5px 0; */
   list-style: none;
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
-  min-width: 200px;
+  /* min-width: 200px; */
+  height: auto;
+  width: 200px;
 }
+
 
 .dropdown:hover .dropdown-menu3 {
   opacity: 1;
   visibility: visible;
 }
 
-
+.dropdown-item4{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+ 
+ 
+}
 
 .dropdown-item4:hover {
   color: #ffcc00 !important;
   background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+
+
 }
 
 /* Mobile Toggler */
@@ -256,17 +268,13 @@
     max-height: 0;
     transition: max-height 0.3s ease-out;
   }
-
+/* 
   .dropdown-menu3.show {
     max-height: 200px;
     padding: 10px 0;
-  }
+  } */
 
-  .dropdown-item4 {
-    padding: 50px 20px;
-    font-size: 2rem;
-    text-decoration: none;
-  }
+
 }
 
 @media (max-width: 480px) {
@@ -286,4 +294,8 @@
   .dropdown-item4 {
     font-size: 0.95rem;
   }
+}
+
+.nav-item button{
+  margin-top: -50px;
 }

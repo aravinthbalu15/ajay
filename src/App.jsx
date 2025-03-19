@@ -16,6 +16,8 @@ import AllSouls from "./components/All-images/AllSouls";
 import Crishmas from "./components/All-images/Crishmas";
 import Others from "./components/All-images/Others";
 import Videos from "./components/Videos";
+import AdminLogin from "./components/AdminLogin";
+import AdminAddProducts from "./components/AdminAddProducts";
 function App() {
   const location = useLocation();
 
@@ -28,6 +30,8 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/admin-product" element={<AdminAddProducts />} />
+        <Route path="/admin" element={<AdminLogin />} />
         <Route path="/ourparish" element={<OurParish />} />
         <Route path="/anbiyangal" element={<Anbiyangal />} />
         <Route path="/special-gallery" element={<SpecialGallery />} />

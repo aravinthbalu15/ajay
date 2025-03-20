@@ -10,14 +10,27 @@ import image3 from "../images/march.png";
 import image4 from "../images/april.png";
 import image5 from "../images/may.png";
 import image6 from "../images/june.png";
+import image7 from "../images/july.png";
+import image8 from "../images/august.png";
+import image9 from "../images/sep.png";
+import image10 from "../images/oct.png";
+import image11 from "../images/nov.png";
+import image12 from "../images/dec.png";
+
 
 const categories = [
-  { title: "January", image: image1, path: "/christmas" },
-  { title: "February", image: image2, path: "/easter" },
-  { title: "March", image: image3, path: "/goodfriday" },
-  { title: "April", image: image4, path: "/newyear" },
-  { title: "May", image: image5, path: "/all-souls" },
-  { title: "June", image: image6, path: "/others" }
+  { title: "January", image: image1, path: "/jan" },
+  { title: "February", image: image2, path: "/feb" },
+  { title: "March", image: image3, path: "/march" },
+  { title: "April", image: image4, path: "/april" },
+  { title: "May", image: image5, path: "/may" },
+  { title: "June", image: image6, path: "/june" },
+  { title: "July", image: image7, path: "/july" },
+  { title: "August", image: image8, path: "/august" },
+  { title: "September", image: image9, path: "/sept" },
+  { title: "October", image: image10, path: "/oct" },
+  { title: "November", image: image11, path: "/nov" },
+  { title: "December", image: image12, path: "/dec" },
 ];
 
 const ImageCategory = () => {

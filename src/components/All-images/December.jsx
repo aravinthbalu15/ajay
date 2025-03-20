@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap';
 import '../../Style/Gallery.css';
-import Image1 from '../../images/new-year/1.png';
-import Image2 from '../../images/new-year/2.png';
-import Image3 from '../../images/new-year/3.png';
-import Image4 from '../../images/new-year/4.png';
+import Image1 from '../../images/all-soul/1.png';
+import Image2 from '../../images/all-soul/2.png';
+import Image3 from '../../images/all-soul/3.png';
+import Image4 from '../../images/all-soul/4.png';
+import Image5 from '../../images/all-soul/5.png';
+import Image6 from '../../images/all-soul/6.png';
 
 
-const NewYear = () => {
+
+const December = () => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
@@ -36,6 +39,18 @@ const NewYear = () => {
         title: 'Sunday Worship',
         description: 'Weekly congregation gathering for prayer and worship'
       },
+      {
+        id: 5,
+        image: Image5,
+        title: 'Sunday Worship',
+        description: 'Weekly congregation gathering for prayer and worship'
+      },
+      {
+        id: 6,
+        image: Image6,
+        title: 'Sunday Worship',
+        description: 'Weekly congregation gathering for prayer and worship'
+      },
     
   ];
 
@@ -47,7 +62,7 @@ const NewYear = () => {
   return (
     <div className="gallery-container container py-5 mt-5">
       <h2 className="text-center mb-4 gallery-title">Church Gallery</h2>
-      <h2 className="section-title">New Year</h2>
+      <h2 className="section-title">All Soul's Day</h2>
 
       <div className="row g-4 justify-content-center">
         {galleryItems.map((item) => (
@@ -99,4 +114,4 @@ const NewYear = () => {
   );
 };
 
-export default NewYear;
+export default December;

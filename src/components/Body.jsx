@@ -27,7 +27,7 @@ const Body = () => {
   }, []);
 
   return (
-    <div className="body-wrapper">
+    <div className="body-wrapper ">
       <div className="body-container">
         {/* Left Side - Text */}
         <div

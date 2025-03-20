@@ -3,21 +3,26 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import Nav from "./components/Nav";
 import OurParish from "./components/OurParish";
 import Anbiyangal from "./components/Anbiyangal";
-import Gallery from "./components/Gallery";
 import SpecialGallery from "./components/Videos";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import ImageCategory from "./components/ImageCategory";
-import EasterSunday from "./components/All-images/EasterSunday";
-import NewYear from "./components/All-images/NewYear";
-import GoodFriday from "./components/All-images/GoodFriday";
-import AllSouls from "./components/All-images/AllSouls";
-import Crishmas from "./components/All-images/Crishmas";
-import Others from "./components/All-images/Others";
 import Videos from "./components/Videos";
 import AdminLogin from "./components/AdminLogin";
 import AdminAddProducts from "./components/AdminAddProducts";
+import Feb from "./components/All-images/Feb";
+import March from "./components/All-images/March";
+import April from "./components/All-images/April";
+import June from "./components/All-images/June";
+import July from "./components/All-images/July";
+import August from "./components/All-images/August";
+import September from "./components/All-images/September";
+import October from "./components/All-images/October";
+import December from "./components/All-images/December";
+import November from "./components/All-images/November";
+import January from "./components/All-images/January";
+import May from "./components/All-images/May";
 function App() {
   const location = useLocation();
 
@@ -38,12 +43,18 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/images-category" element={<ImageCategory />} />
-        <Route path="/christmas" element={<Crishmas />} />
-        <Route path="/easter" element={<EasterSunday />} />
-        <Route path="/goodfriday" element={<GoodFriday />} />
-        <Route path="/newyear" element={<NewYear />} />
-        <Route path="/all-souls" element={<AllSouls />} />
-        <Route path="/others" element={<Others />} />
+        <Route path="/jan" element={<January />} />
+        <Route path="/feb" element={<Feb />} />
+        <Route path="/march" element={<March />} />
+        <Route path="/april" element={<April />} />
+        <Route path="/may" element={<May />} />
+        <Route path="/june" element={<June />} />
+        <Route path="/july" element={<July />} />
+        <Route path="/august" element={<August />} />
+        <Route path="/sept" element={<September />} />
+        <Route path="/oct" element={<October />} />
+        <Route path="/nov" element={<November/>} />
+        <Route path="/dec" element={<December/>} />
       </Routes>
       <Footer />
     </>

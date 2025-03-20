@@ -68,10 +68,11 @@
 
 /* Gradient Text Effect */
 .proverb p {
-  font-family: "Romanesco", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size:500%;
+  font-family: "Emblema One", cursive;
+  font-weight:bolder;
+  font-style:italic;
+  font-size:50px;
+  color:white;
   color:rgb(250, 244, 244);
   display: inline-block;
   letter-spacing: 1px;

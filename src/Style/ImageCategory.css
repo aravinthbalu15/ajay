@@ -1,6 +1,7 @@
 /* Gallery Container */
 .gallery-container {
     padding-top: 80px;
+    margin-top: 50px;
   }
   
   /* Section Title */
@@ -11,6 +12,7 @@
     margin-bottom: 1.5rem;
     font-weight: bold;
     position: relative;
+    padding-top: 50px;
   }
   
   .section-title::after {

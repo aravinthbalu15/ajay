@@ -15,8 +15,8 @@ const OurParish = () => {
 
   return (
     <div>
-      <div className="our-parish-container mt-5">
-        <h2>Meet Our Parish Members</h2>
+      <div className="our-parish-container mt-4">
+        <h2 className="mt-5">Meet Our Parish Members</h2>
         
         <div className="members-list mt-5">
           {members.map((member) => (

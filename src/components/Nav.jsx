@@ -22,28 +22,37 @@ const Nav = () => {
   }, [location.pathname]);
 
   const toggleNavbar = () => setNavbarOpen(!navbarOpen);
+
   const toggleDropdown = (menu) => {
     setDropdownOpen(dropdownOpen === menu ? null : menu);
   };
+
   const closeMenu = () => {
     setNavbarOpen(false);
     setDropdownOpen(null);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (!event.target.closest(".dropdown")) {
+        setDropdownOpen(null);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, []);
 
   return (
     <nav className={`navbar1 ${scrolling ? "scrolled" : "transparent"}`}>
       <div className="container-fluid">
         <Link className="navbar1-brand" to="/" onClick={closeMenu}>
           <img src={Logo} alt="Logo" className="logo1" />
-          <h1>St Joseph church</h1>
+          <h1>St Joseph Church</h1>
         </Link>
 
         {/* Navbar Toggle Button */}
-        <button 
-          className="navbar1-toggler" 
-          type="button" 
-          onClick={toggleNavbar}
-        >
+        <button className="navbar1-toggler" type="button" onClick={toggleNavbar}>
           <FontAwesomeIcon icon={navbarOpen ? faTimes : faBars} size="2x" />
         </button>
 
@@ -52,7 +61,7 @@ const Nav = () => {
             <li className="nav-item">
               <Link className="nav-link2" to="/" onClick={closeMenu}>Home</Link>
             </li>
-            
+
             {/* Administration Dropdown */}
             <li className="nav-item dropdown">
               <button 

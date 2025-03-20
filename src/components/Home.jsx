@@ -28,10 +28,11 @@ const Home = () => {
     <div>
       <BackgroundSlider />
       <div className={`content ${showContent ? "visible" : "hidden"}`}>
+      <Event />
+      <President />
          <Body /> 
-        <President />
-        <Quotes />
-        <Event />
+          <Quotes />
+       
         <VIsitingTime />
         <ImageLink /> 
         <History />

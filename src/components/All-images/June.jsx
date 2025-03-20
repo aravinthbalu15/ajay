@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap';
 import '../../Style/Gallery.css';
-import Image1 from '../../images/christmas/1.png';
-import Image2 from '../../images/christmas/2.png';
-import Image3 from '../../images/christmas/3.png';
-import Image4 from '../../images/christmas/4.png';
-import Image5 from '../../images/christmas/5.png';
-import Image6 from '../../images/christmas/6.png';
+import Image1 from '../../images/image1.png';
+import Image2 from '../../images/image2.png';
+import Image3 from '../../images/image3.png';
+import Image4 from '../../images/image4.png';
 
-
-const Crishmas = () => {
+const June = () => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
@@ -27,28 +24,22 @@ const Crishmas = () => {
       description: 'Sacred baptism of new church members'
     },
     {
-        id: 1,
+        id: 3,
         image: Image3,
         title: 'Sunday Worship',
         description: 'Weekly congregation gathering for prayer and worship'
       },
       {
-        id: 1,
+        id: 2,
+        image: Image2,
+        title: 'Baptism Ceremony',
+        description: 'Sacred baptism of new church members'
+      },
+      {
+        id: 4,
         image: Image4,
-        title: 'Sunday Worship',
-        description: 'Weekly congregation gathering for prayer and worship'
-      },
-      {
-        id: 1,
-        image: Image5,
-        title: 'Sunday Worship',
-        description: 'Weekly congregation gathering for prayer and worship'
-      },
-      {
-        id: 1,
-        image: Image6,
-        title: 'Sunday Worship',
-        description: 'Weekly congregation gathering for prayer and worship'
+        title: 'Baptism Ceremony',
+        description: 'Sacred baptism of new church members'
       },
     
   ];
@@ -61,11 +52,9 @@ const Crishmas = () => {
   return (
     <div className="gallery-container container py-5 mt-5">
       <h2 className="text-center mb-4 gallery-title">Church Gallery</h2>
-      {/* <p className="text-center mb-5 lead gallery-intro">
-        Christmas
-      </p> */}
-        <h2 className="section-title mt-5">Christmas</h2>
-
+      <p className="text-center mb-5 lead gallery-intro">
+        Witness our spiritual journey through these captured moments
+      </p>
 
       <div className="row g-4 justify-content-center">
         {galleryItems.map((item) => (
@@ -117,4 +106,4 @@ const Crishmas = () => {
   );
 };
 
-export default Crishmas;
+export default June;

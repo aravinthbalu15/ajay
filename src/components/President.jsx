@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 import PresidentImage from "../images/aju.webp";
 import HeadImage from "../images/head.png";
-import SubImage from "../images/subhead.png";
+import SubImage from "../images/bishop.jpeg";
 import "../Style/President.css";
 
 const President = () => {
@@ -19,7 +19,7 @@ const President = () => {
       <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-right">
         <div className="president-card">
           <img src={HeadImage} alt="Head" className="president-img" />
-          <h5 className="president-name">Fr. Aju Kallookadan</h5>
+          <h5 className="president-name">Pope</h5>
         </div>
       </div>
   
@@ -27,7 +27,7 @@ const President = () => {
       <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-left">
         <div className="president-card">
           <img src={SubImage} alt="Sub Head" className="president-img" />
-          <h5 className="president-name">Fr. Aju Kallookadan</h5>
+          <h5 className="president-name">Bishop</h5>
         </div>
       </div>
   
@@ -35,7 +35,7 @@ const President = () => {
       <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-right">
         <div className="president-card">
           <img src={PresidentImage} alt="President" className="president-img" />
-          <h5 className="president-name">Fr. Aju Kallookadan</h5>
+          <h5 className="president-name">Fr.Maria William</h5>
         </div>
       </div>
     </div>

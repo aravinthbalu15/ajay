@@ -32,6 +32,7 @@ const Home = () => {
       <Event />
       <President />
       <History />
+     
           <Quotes />
        
         <VIsitingTime />

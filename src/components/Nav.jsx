@@ -79,6 +79,9 @@ const Nav = () => {
             <li className="nav-item">
               <Link className="nav-link2" to="/" onClick={closeMenu}>Schedule</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link2" to="/festival" onClick={closeMenu}>Festival</Link>
+            </li>
           </ul>
         </div>
       </div>

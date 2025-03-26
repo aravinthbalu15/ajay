@@ -5,13 +5,13 @@ const Family = () => {
   const stats = [
     { value: "500", label: "Families" },
     { value: "125", label: "Members" },
-    { value: "7", label: "Anbiyams" },
-    { value: "15", label: "Sangam" }
+    { value: "7", label: "Anbiyams" }
   ];
 
   return (
     <div className="container text-center my-5">
-      <div className="row justify-content-center">
+      <h1 className=' section-title mt-5'>OUR PARISH COMMUNITY</h1>
+      <div className=" row justify-content-center mt-5">
         {stats.map((stat, index) => (
           <div key={index} className="col-lg-3 col-md-6 col-sm-6 col-12 mb-4">
             <div className="stat-box">
@@ -20,6 +20,7 @@ const Family = () => {
             </div>
           </div>
         ))}
+        
       </div>
     </div>
   );

@@ -23,6 +23,7 @@ import December from "./components/All-images/December";
 import November from "./components/All-images/November";
 import January from "./components/All-images/January";
 import May from "./components/All-images/May";
+import VisitingTime from "./components/VIsitingTime";
 function App() {
   const location = useLocation();
 

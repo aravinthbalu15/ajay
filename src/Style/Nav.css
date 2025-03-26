@@ -103,15 +103,16 @@
 .dropdown-item4{
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
+  width: 150px;
  
  
 }
 
 .dropdown-item4:hover {
   color: #ffcc00 !important;
-  background: rgba(255, 255, 255, 0.1);
   text-decoration: none;
+  
 
 
 }
@@ -198,7 +199,7 @@
   }
 
   .dropdown:hover .dropdown-menu3 {
-    max-height: 200px;
+    max-height: 500px;
   }
 }
 

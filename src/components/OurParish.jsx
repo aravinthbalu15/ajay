@@ -105,7 +105,7 @@ const OurParish = () => {
               <img src={selectedMember.img} alt={selectedMember.name} className="popup-image" />
               <h2>{selectedMember.original}</h2>
               <p>Date of Birth: {selectedMember.dob}</p>
-              <button className="close-btn" onClick={() => setSelectedMember(null)}>Close</button>
+              <button className="close-bt" onClick={() => setSelectedMember(null)}>Close</button>
             </div>
           </div>
         )}

@@ -59,8 +59,8 @@ const Anbiyangal = () => {
     
     {/* anbiyangal-2 */}
 
-    <Container className="anbiyangal-container">
-      <h1 className="section-title">Anbiyanga-2</h1>
+    <Container className="anbiyangal-container2 ">
+      <h1 className="section-title ">Anbiyanga-2</h1>
       <p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, totam?</p>
       
       <Row className="align-items-center">
@@ -99,7 +99,7 @@ const Anbiyangal = () => {
   </Row>
     </Container>
     {/* anbiyangal-3 */}
-    <Container className="anbiyangal-container mt-5">
+    <Container className="anbiyangal-container3 ">
       <h1 className="section-title">Anbiyanga-3</h1>
       <p className="section-subtitle text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, id?</p>
       
@@ -140,7 +140,7 @@ const Anbiyangal = () => {
   </Row>
     </Container>
     {/* anbiyangal-4 */}
-    <Container className="anbiyangal-container mt-5">
+    <Container className="anbiyangal-container4">
       <h1 className="section-title">Anbiyanga-4</h1>
       <p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, accusamus!</p>
       
@@ -181,7 +181,7 @@ const Anbiyangal = () => {
   </Row>
     </Container>
     {/* anbiyangal-5 */}
-    <Container className="anbiyangal-container mt-5">
+    <Container className="anbiyangal-container5">
       <h1 className="section-title">Anbiyanga-5</h1>
       <p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, minus.</p>
       
@@ -222,7 +222,7 @@ const Anbiyangal = () => {
   </Row>
     </Container>
     {/* anbiyangal-6 */}
-    <Container className="anbiyangal-container mt-5">
+    <Container className="anbiyangal-container6">
       <h1 className="section-title">Anbiyanga-6</h1>
       <p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, exercitationem?</p>
       
@@ -263,7 +263,7 @@ const Anbiyangal = () => {
   </Row>
     </Container>
     {/* anbiyangal-7 */}
-    <Container className="anbiyangal-container mt-5">
+    <Container className="anbiyangal-container7">
       <h1 className="section-title">Anbiyanga-7</h1>
       <p className="section-subtitle text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aspernatur.</p>
       

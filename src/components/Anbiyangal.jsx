@@ -5,19 +5,19 @@ import Image1 from "../images/all-soul/1.png";
 import Image2 from "../images/all-soul/2.png";
 import Image3 from "../images/all-soul/3.png";
 import Image4 from "../images/all-soul/stjoseph1.png";
-import Image5 from "../images/all-soul/madha.png";
-import Image6 from "../images/all-soul/stjoseph1.png";
-import Image7 from "../images/all-soul/stjoseph1.png";
-import Image8 from "../images/all-soul/stjoseph1.png";
-import Image9 from "../images/all-soul/stjoseph1.png"; // Rectangular Image
+// import Image5 from "../images/all-soul/madha.png";
+// import Image6 from "../images/all-soul/stjoseph1.png";
+// import Image7 from "../images/all-soul/stjoseph1.png";
+// import Image8 from "../images/all-soul/stjoseph1.png";
+// import Image9 from "../images/all-soul/stjoseph1.png"; // Rectangular Image
 
 const Anbiyangal = () => {
   return (
     <>
     {/* anbiyangal-1 */}
     <Container className="anbiyangal-container mt-5">
-      <h1 className="section-title">Anbiyanga-1</h1>
-      <p className="section-subtitle text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, sit!</p>
+      <h1 className="section-title">அன்பியம்-1</h1>
+      <p className="section-subtitle text-center">புனித சூசையப்பர் அன்பியம்</p>
       
       <Row className="align-items-center">
         
@@ -26,21 +26,21 @@ const Anbiyangal = () => {
           <div className="image-box d-flex align-items-center">
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 1</h1>
+              <h1 className="image-title">தலைவர்</h1>
               <p className="image-desc">This is the description for Image 1.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image2} alt="Image 2" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 2</h1>
+              <h1 className="image-title">செயலாளர்</h1>
               <p className="image-desc">This is the description for Image 2.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 3</h1>
+              <h1 className="image-title">பொருளாளர்</h1>
               <p className="image-desc">This is the description for Image 3.</p>
             </div>
           </div>
@@ -60,8 +60,8 @@ const Anbiyangal = () => {
     {/* anbiyangal-2 */}
 
     <Container className="anbiyangal-container">
-      <h1 className="section-title">Anbiyanga-2</h1>
-      <p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, totam?</p>
+      <h1 className="section-title">அன்பியம்-2</h1>
+      <p className="section-subtitle text-center">சதா சகாய மாதா அன்பியம்</p>
       
       <Row className="align-items-center">
         
@@ -70,21 +70,21 @@ const Anbiyangal = () => {
           <div className="image-box d-flex align-items-center">
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 1</h1>
+              <h1 className="image-title">தலைவர்</h1>
               <p className="image-desc">This is the description for Image 1.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image2} alt="Image 2" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 2</h1>
+              <h1 className="image-title">செயலாளர்</h1>
               <p className="image-desc">This is the description for Image 2.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 3</h1>
+              <h1 className="image-title">பொருளாளர்</h1>
               <p className="image-desc">This is the description for Image 3.</p>
             </div>
           </div>
@@ -100,8 +100,8 @@ const Anbiyangal = () => {
     </Container>
     {/* anbiyangal-3 */}
     <Container className="anbiyangal-container mt-5">
-      <h1 className="section-title">Anbiyanga-3</h1>
-      <p className="section-subtitle text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, id?</p>
+      <h1 className="section-title">அன்பியம்-3</h1>
+      <p className="section-subtitle text-center">விண்ணரசி அன்பியம்</p>
       
       <Row className="align-items-center">
     {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
@@ -110,21 +110,21 @@ const Anbiyangal = () => {
       <div className="image-box d-flex align-items-center">
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 1</h1>
+              <h1 className="image-title">தலைவர்</h1>
               <p className="image-desc">This is the description for Image 1.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image2} alt="Image 2" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 2</h1>
+              <h1 className="image-title">செயலாளர்</h1>
               <p className="image-desc">This is the description for Image 2.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 3</h1>
+              <h1 className="image-title">பொருளாளர்</h1>
               <p className="image-desc">This is the description for Image 3.</p>
             </div>
           </div>
@@ -141,8 +141,8 @@ const Anbiyangal = () => {
     </Container>
     {/* anbiyangal-4 */}
     <Container className="anbiyangal-container mt-5">
-      <h1 className="section-title">Anbiyanga-4</h1>
-      <p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, accusamus!</p>
+      <h1 className="section-title">அன்பியம்-4</h1>
+      <p className="section-subtitle text-center">குழந்தை இயேசு அன்பியம்</p>
       
       <Row className="align-items-center">
     {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
@@ -151,21 +151,21 @@ const Anbiyangal = () => {
       <div className="image-box d-flex align-items-center">
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 1</h1>
+              <h1 className="image-title">தலைவர்</h1>
               <p className="image-desc">This is the description for Image 1.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image2} alt="Image 2" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 2</h1>
+              <h1 className="image-title">செயலாளர்</h1>
               <p className="image-desc">This is the description for Image 2.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 3</h1>
+              <h1 className="image-title">பொருளாளர்</h1>
               <p className="image-desc">This is the description for Image 3.</p>
             </div>
           </div>
@@ -182,8 +182,8 @@ const Anbiyangal = () => {
     </Container>
     {/* anbiyangal-5 */}
     <Container className="anbiyangal-container mt-5">
-      <h1 className="section-title">Anbiyanga-5</h1>
-      <p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, minus.</p>
+      <h1 className="section-title">அன்பியம்-5</h1>
+      <p className="section-subtitle text-center">அன்னை தெரேசா அன்பியம்</p>
       
       <Row className="align-items-center">
     {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
@@ -192,21 +192,21 @@ const Anbiyangal = () => {
       <div className="image-box d-flex align-items-center">
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 1</h1>
+              <h1 className="image-title">தலைவர்</h1>
               <p className="image-desc">This is the description for Image 1.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image2} alt="Image 2" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 2</h1>
+              <h1 className="image-title">செயலாளர்</h1>
               <p className="image-desc">This is the description for Image 2.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 3</h1>
+              <h1 className="image-title">பொருளாளர்</h1>
               <p className="image-desc">This is the description for Image 3.</p>
             </div>
           </div>
@@ -223,8 +223,8 @@ const Anbiyangal = () => {
     </Container>
     {/* anbiyangal-6 */}
     <Container className="anbiyangal-container mt-5">
-      <h1 className="section-title">Anbiyanga-6</h1>
-      <p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, exercitationem?</p>
+      <h1 className="section-title">அன்பியம்-6</h1>
+      <p className="section-subtitle text-center">புனித பிரான்சிஸ் சவேரியார் அன்பியம்</p>
       
       <Row className="align-items-center">
     {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
@@ -233,21 +233,21 @@ const Anbiyangal = () => {
       <div className="image-box d-flex align-items-center">
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 1</h1>
+              <h1 className="image-title">தலைவர்</h1>
               <p className="image-desc">This is the description for Image 1.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image2} alt="Image 2" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 2</h1>
+              <h1 className="image-title">செயலாளர்</h1>
               <p className="image-desc">This is the description for Image 2.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 3</h1>
+              <h1 className="image-title">பொருளாளர்</h1>
               <p className="image-desc">This is the description for Image 3.</p>
             </div>
           </div>
@@ -264,8 +264,8 @@ const Anbiyangal = () => {
     </Container>
     {/* anbiyangal-7 */}
     <Container className="anbiyangal-container mt-5">
-      <h1 className="section-title">Anbiyanga-7</h1>
-      <p className="section-subtitle text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aspernatur.</p>
+      <h1 className="section-title">அன்பியம்-7</h1>
+      <p className="section-subtitle text-center">புனித அந்தோனியார் அன்பியம்</p>
       
       <Row className="align-items-center">
     {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
@@ -274,14 +274,14 @@ const Anbiyangal = () => {
       <div className="image-box d-flex align-items-center">
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 1</h1>
+              <h1 className="image-title">தலைவர்</h1>
               <p className="image-desc">This is the description for Image 1.</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image2} alt="Image 2" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">Title 2</h1>
+              <h1 className="image-title">செயலாளர்</h1>
               <p className="image-desc">This is the description for Image 2.</p>
             </div>
           </div>

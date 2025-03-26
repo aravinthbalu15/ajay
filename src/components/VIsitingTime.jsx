@@ -48,22 +48,22 @@ const VisitingTime = () => {
               </ul>
               <p>Sunday Mass:</p>
               <ul>
-                <li>First Mass: 6:00 AM</li>
-                <li>Second Mass: 8:00 AM</li>
-                <li>Third Mass: 10:30 AM</li>
+                <li>8:30 AM - 10:30 AM</li>
+                {/* <li>Second Mass: 8:00 AM</li> */}
+                {/* <li>Third Mass: 10:30 AM</li> */}
               </ul>
 
-              <h5 className="text-danger">🌟 Special Services</h5>
-              <ul>
-                <li>Confession: Saturday | 5:00 PM – 6:00 PM</li>
-                <li>Adoration: First Friday | 7:00 PM – 8:30 PM</li>
-                <li>Baptisms: Sunday | 11:30 AM (By Appointment)</li>
-                <li>Weddings: As per Church Schedule</li>
-              </ul>
+              {/* <h5 className="text-danger">🌟 Special Services</h5> */}
+              {/* <ul> */}
+                {/* <li>Confession: Saturday | 5:00 PM – 6:00 PM</li> */}
+                {/* <li>Adoration: First Friday | 7:00 PM – 8:30 PM</li> */}
+                {/* <li>Baptisms: Sunday | 11:30 AM (By Appointment)</li> */}
+                {/* <li>Weddings: As per Church Schedule</li> */}
+              {/* </ul> */}
 
-              <h5 className="text-info">🕒 Office Hours</h5>
+              {/* <h5 className="text-info">🕒 Office Hours</h5>
               <p>Monday to Friday: 9:00 AM – 5:00 PM</p>
-              <p>Saturday: 9:00 AM – 1:00 PM</p>
+              <p>Saturday: 9:00 AM – 1:00 PM</p> */}
             </motion.div>
 
             <motion.button

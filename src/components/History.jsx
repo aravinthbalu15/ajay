@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Style/History.css";
-
+import Image1 from "../images/image4.png"
 const History = () => {
   const navigate = useNavigate();
 
@@ -15,7 +15,7 @@ const History = () => {
       <div className="row align-items-start">
         {/* Church Image */}
         <div className="col-md-5 mt-5">
-          <img src="../src/images/image2.png" alt="Church History" className="img-fluid history-image" />
+          <img src={Image1} alt="Church History" className="img-fluid history-image" />
         </div>
 
         {/* History Content */}

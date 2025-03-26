@@ -24,6 +24,7 @@ import November from "./components/All-images/November";
 import January from "./components/All-images/January";
 import May from "./components/All-images/May";
 import VisitingTime from "./components/VIsitingTime";
+import Festival from "./components/Festival";
 function App() {
   const location = useLocation();
 
@@ -56,6 +57,7 @@ function App() {
         <Route path="/oct" element={<October />} />
         <Route path="/nov" element={<November/>} />
         <Route path="/dec" element={<December/>} />
+        <Route path="/festival" element={<Festival />} />
       </Routes>
       <Footer />
     </>

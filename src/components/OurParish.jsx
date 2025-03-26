@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import "../Style/OurParish.css"; // Ensure this CSS file exists
 
 const members = [
-  { id: 1, name: "President", dob: "Jan 1, 1980", original:"Aravinth",img: "../src/images/aju.webp" },
-  { id: 2, name: "Vice-President", dob: "Feb 15, 1985",original:"Aju", img: "../src/images/image2.png" },
-  { id: 3, name: "Secretary Vice", dob: "Mar 22, 1990", original:"Aju",img: "../src/images/image3.png" },
+  { id: 1, name: "Priest(President)", dob: "Jan 1, 1980", original:"Fr.Maria William",img: "../src/images/aju.webp" },
+  { id: 2, name: "Vice-President", dob: "Feb 15, 1985",original:"Mr.Richard Joseph Raj", img: "../src/images/image2.png" },
+  { id: 3, name: "Secretary", dob: "Mar 22, 1990", original:"Mrs.Jacqulin",img: "../src/images/image3.png" },
 ];
 
 const member1 = [
-  { id: 1, name: "President", dob: "Jan 1, 1980", original:"Aravinth",img: "../src/images/aju.webp" },
-  { id: 2, name: "Vice-President", dob: "Feb 15, 1985",original:"Aju", img: "../src/images/image2.png" },
+  { id: 1, name: "Treasurer", dob: "Jan 1, 1980", original:"Mrs.Charlet Rani",img: "../src/images/aju.webp" },
+  { id: 2, name: "Co-Secreatry", dob: "Feb 15, 1985",original:"Mr.Jenish", img: "../src/images/image2.png" },
 ];
 const counsil = [
   { id: 1, name: "President", dob: "Jan 1, 1980", original:"Aravinth",img: "../src/images/aju.webp",p:"this is the description for the image" },

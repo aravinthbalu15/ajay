@@ -31,12 +31,12 @@ const Home = () => {
       <div className={`content ${showContent ? "visible" : "hidden"}`}>
       <Event />
       <President />
-         <Body /> 
+      <History />
           <Quotes />
        
         <VIsitingTime />
         <ImageLink /> 
-        <History />
+        
          <VIdeoLink />
         <Family /> 
         <ParticipateStructers/>

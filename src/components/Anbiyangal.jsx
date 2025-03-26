@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Image1 from "../images/all-soul/1.png";
 import Image2 from "../images/all-soul/2.png";
 import Image3 from "../images/all-soul/3.png";
-import Image4 from "../images/all-soul/4.png"; // Rectangular Image
+import Image4 from "../images/all-soul/image.png"; // Rectangular Image
 
 const Anbiyangal = () => {
   return (

@@ -9,6 +9,7 @@ import VIsitingTime from "../components/VIsitingTime";
 import Event from "../components/Event";
 import History from "../components/History";
 import VIdeoLink from "../components/VIdeoLink"
+import ParticipateStructers from "./ParticipateStructers";
 
 const Home = () => {
   const [showContent, setShowContent] = useState(false);
@@ -38,6 +39,7 @@ const Home = () => {
         <History />
          <VIdeoLink />
         <Family /> 
+        <ParticipateStructers/>
       </div>
     </div>
   );

@@ -1,14 +1,14 @@
 import React from "react";
-import Image1 from "../images/image1.png"; // Replace with correct path
-import "../Style/Body.css";
+import Image1 from "../../images/christmas/1.png"; // Replace with correct path
 
-const ServiceAssociation = () => {
+
+const Two = () => {
   return (
     <div className="pt-5">
       <h1 className="section-title mt-5">Service Association</h1>
 
       {/* Container 1 */}
-      <h1 className="section-title mt-5">பண்கள் கிரம முன்னேற்றச் சங்கம்</h1>
+      <h1 className="section-title mt-5">பாஸர் சபை</h1>
       <div className="body-wrapper">
         <div className="body-container">
           {/* Left Side - Text */}
@@ -89,4 +89,4 @@ const ServiceAssociation = () => {
   );
 };
 
-export default ServiceAssociation;
+export default Two;

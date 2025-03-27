@@ -23,10 +23,10 @@ import December from "./components/All-images/December";
 import November from "./components/All-images/November";
 import January from "./components/All-images/January";
 import May from "./components/All-images/May";
-import VisitingTime from "./components/VIsitingTime";
+
 import Festival from "./components/Festival";
 import Body from "./components/Body";
-import ServiceAssociation from "./components/SeviceAssociation";
+import One from "./components/participative-structures/One";
 function App() {
   const location = useLocation();
 
@@ -61,7 +61,7 @@ function App() {
         <Route path="/dec" element={<December/>} />
         <Route path="/festival" element={<Festival />} />
         <Route path="/gallery" element={<Body />} />
-        <Route path="/service-association" element={<ServiceAssociation/>} />
+        <Route path="/one" element={<One />} />
       </Routes>
       <Footer />
     </>

@@ -76,9 +76,9 @@ const Nav = () => {
                 <li><Link className="dropdown-item4" to="/videos" onClick={closeMenu}>Videos</Link></li>
               </ul>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link2" to="/" onClick={closeMenu}>Schedule</Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link2" to="/festival" onClick={closeMenu}>Festival</Link>
             </li>

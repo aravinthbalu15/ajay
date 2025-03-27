@@ -5,7 +5,7 @@ import Image1 from "../../images/christmas/1.png"; // Replace with correct path
 const Two = () => {
   return (
     <div className="pt-5">
-      <h1 className="section-title mt-5">Service Association</h1>
+      <h1 className="section-title mt-5">உருவாக்க இயக்கங்கள்</h1>
 
       {/* Container 1 */}
       <h1 className="section-title mt-5">பாஸர் சபை</h1>
@@ -30,7 +30,7 @@ const Two = () => {
       </div>
 
       {/* Container 2 */}
-      <h1 className="section-title mt-5">கோல்பிங் இயக்கம்</h1>
+      <h1 className="section-title mt-5">சிறார் இயக்கம்</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -49,7 +49,7 @@ const Two = () => {
       </div>
 
       {/* Container 3 */}
-      <h1 className="section-title mt-5">கைத்தொழில் தன்னம்பிக்கைக் இயக்கம்</h1>
+      <h1 className="section-title mt-5"> இளங்கிறிஸ்தவ மாணாக்கர் இயக்கம்</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -68,7 +68,65 @@ const Two = () => {
       </div>
 
       {/* Container 4 */}
-      <h1 className="section-title mt-5">அதித்தா முழுவராற்றுச் சங்கம்</h1>
+      <h1 className="section-title mt-5">இளைப்பேரி இயக்கம் (ஆண்கள்)</h1>
+      <div className="body-wrapper">
+        <div className="body-container">
+          <div className="text-section">
+            <p className="description">
+              Asia’s largest shrine to Saint George, about five million people visit it every year.
+              The church is thought to have been founded in 593 AD. It is regarded
+              as one of the oldest churches in Kerala, after the seven churches founded
+              by Thomas the Apostle in the first century AD. 
+              <strong className="read-more"> read more...</strong>
+            </p>
+          </div>
+          <div className="image-section2">
+            <img src={Image1} alt="St. Joseph Church" className="image" />
+          </div>
+        </div>
+      </div>
+      {/* Container 5 */}
+      <h1 className="section-title mt-5">இளைப்பேரி இயக்கம் (பெண்கள்)
+      </h1>
+      <div className="body-wrapper">
+        <div className="body-container">
+          <div className="text-section">
+            <p className="description">
+              Asia’s largest shrine to Saint George, about five million people visit it every year.
+              The church is thought to have been founded in 593 AD. It is regarded
+              as one of the oldest churches in Kerala, after the seven churches founded
+              by Thomas the Apostle in the first century AD. 
+              <strong className="read-more"> read more...</strong>
+            </p>
+          </div>
+          <div className="image-section2">
+            <img src={Image1} alt="St. Joseph Church" className="image" />
+          </div>
+        </div>
+      </div>
+      {/* Container 6 */}
+      <h1 className="section-title mt-5"> பெண்கள் இயக்கம்
+      </h1>
+      <div className="body-wrapper">
+        <div className="body-container">
+          <div className="text-section">
+            <p className="description">
+              Asia’s largest shrine to Saint George, about five million people visit it every year.
+              The church is thought to have been founded in 593 AD. It is regarded
+              as one of the oldest churches in Kerala, after the seven churches founded
+              by Thomas the Apostle in the first century AD. 
+              <strong className="read-more"> read more...</strong>
+            </p>
+          </div>
+          <div className="image-section2">
+            <img src={Image1} alt="St. Joseph Church" className="image" />
+          </div>
+        </div>
+      </div>
+      {/* Container 6 */}
+      <h1 className="section-title mt-5"> விலியப் பணிக்குழு
+
+      </h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">

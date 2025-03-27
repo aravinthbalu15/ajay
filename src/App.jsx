@@ -27,6 +27,10 @@ import May from "./components/All-images/May";
 import Festival from "./components/Festival";
 import Body from "./components/Body";
 import One from "./components/participative-structures/One";
+import Two from "./components/participative-structures/Two";
+import Three from "./components/participative-structures/Three";
+import Four from "./components/participative-structures/Four";
+import Five from "./components/participative-structures/Five";
 function App() {
   const location = useLocation();
 
@@ -62,6 +66,10 @@ function App() {
         <Route path="/festival" element={<Festival />} />
         <Route path="/gallery" element={<Body />} />
         <Route path="/one" element={<One />} />
+        <Route path="/two" element={<Two />} />
+        <Route path="/three" element={<Three />} />
+        <Route path="/four" element={<Four />} />
+        <Route path="/five" element={<Five />} />
       </Routes>
       <Footer />
     </>

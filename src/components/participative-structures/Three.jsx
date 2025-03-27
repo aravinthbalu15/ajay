@@ -5,10 +5,11 @@ import Image1 from "../../images/christmas/1.png"; // Replace with correct path
 const Three = () => {
   return (
     <div className="pt-5">
-      <h1 className="section-title mt-5">Service Association</h1>
+      <h1 className="section-title mt-5">சேவை அமைப்புகள்</h1>
 
       {/* Container 1 */}
-      <h1 className="section-title mt-5">பண்கள் கிரம முன்னேற்றச் சங்கம்</h1>
+      <h1 className="section-title mt-5">பெண்கள் கிரம முன்னேற்றச் சங்கம்
+      </h1>
       <div className="body-wrapper">
         <div className="body-container">
           {/* Left Side - Text */}
@@ -30,7 +31,8 @@ const Three = () => {
       </div>
 
       {/* Container 2 */}
-      <h1 className="section-title mt-5">கோல்பிங் இயக்கம்</h1>
+      <h1 className="section-title mt-5">கோல்பிங் இயக்கம்
+      </h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -49,7 +51,8 @@ const Three = () => {
       </div>
 
       {/* Container 3 */}
-      <h1 className="section-title mt-5">கைத்தொழில் தன்னம்பிக்கைக் இயக்கம்</h1>
+      <h1 className="section-title mt-5">கைத்கள் தன்னம்பிக்கைக் இயக்கம்
+      </h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -68,7 +71,8 @@ const Three = () => {
       </div>
 
       {/* Container 4 */}
-      <h1 className="section-title mt-5">அதித்தா முழுவராற்றுச் சங்கம்</h1>
+      <h1 className="section-title mt-5"> அதித்தா முழுவராற்றுச் சங்கம்
+      </h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">

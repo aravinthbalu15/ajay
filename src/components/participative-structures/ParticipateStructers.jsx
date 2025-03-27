@@ -6,7 +6,7 @@ const ParticipateStructers = () => {
     { value: "5", label: "திருத்தூதர்கள் சங்கங்கள்", link: "./one" },
     { value: "7", label: "உருவாக்க இயக்கங்கள்", link: "./two" },
     { value: "4", label: "சேவை அமைப்புகள்", link: "./three" },
-    { value: "4", label: "பது அமைப்புகள்", link: "./four" },
+    { value: "4", label: "பொது அமைப்புகள்", link: "./four" },
     { value: "3", label: "நிறைவு அமைப்புகள்", link: "./five" }
   ];
 

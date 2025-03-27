@@ -13,7 +13,7 @@ const Nav = () => {
 
   useEffect(() => {
     if (location.pathname === "/") {
-      const handleScroll = () => setScrolling(window.scrollY > 50);
+      const handleScroll = () => setScrolling(window.scrollY > -80);
       window.addEventListener("scroll", handleScroll);
       return () => window.removeEventListener("scroll", handleScroll);
     } else {
@@ -38,6 +38,19 @@ const Nav = () => {
     return () => document.removeEventListener("click", handleClickOutside);
   }, []);
 
+  // Function to scroll to Schedule Section
+  const scrollToSchedule = (event) => {
+    event.preventDefault();
+    if (location.pathname === "/") {
+      const scheduleSection = document.getElementById("schedule");
+      if (scheduleSection) {
+        scheduleSection.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.location.href = "/#schedule"; // Redirect to home and scroll
+    }
+  };
+
   return (
     <nav className={`navbar1 ${scrolling ? "scrolled" : "transparent"}`}>
       <div className="container-fluid">
@@ -53,21 +66,19 @@ const Nav = () => {
             <li className="nav-item dropdown">
               <button className={`nav-link2 dropdown-toggle ${dropdownOpen === "home" ? "open" : ""}`} onClick={() => toggleDropdown("home")}>Home</button>
               <ul className={`dropdown-menu3 ${dropdownOpen === "home" ? "show" : ""}`}>
-              <li><Link className="dropdown-item4" to="/" onClick={closeMenu}>Home</Link></li>
-
+                <li><Link className="dropdown-item4" to="/" onClick={closeMenu}>Home</Link></li>
                 <li><Link className="dropdown-item4" to="/ourparish" onClick={closeMenu}>About us</Link></li>
                 <li><Link className="dropdown-item4" to="/anbiyangal" onClick={closeMenu}>History</Link></li>
                 <li><Link className="dropdown-item4" to="/anbiyangal" onClick={closeMenu}>Our people at Service</Link></li>
               </ul>
             </li>
-            
+
             <li className="nav-item">
               <Link className="nav-link2" to="/ourparish" onClick={closeMenu}>Administration</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link2" to="/anbiyangal" onClick={closeMenu}>Anbiyangal</Link>
             </li>
-
 
             <li className="nav-item dropdown">
               <button className={`nav-link2 dropdown-toggle ${dropdownOpen === "gallery" ? "open" : ""}`} onClick={() => toggleDropdown("gallery")}>Gallery</button>
@@ -76,9 +87,14 @@ const Nav = () => {
                 <li><Link className="dropdown-item4" to="/videos" onClick={closeMenu}>Videos</Link></li>
               </ul>
             </li>
+
+            {/* Change Schedule Link to Scroll to Section */}
             <li className="nav-item">
-              <Link className="nav-link2" to="/" onClick={closeMenu}>Schedule</Link>
+              <a className="nav-link2" href="/#schedule" onClick={scrollToSchedule}>
+                Schedule
+              </a>
             </li>
+
             <li className="nav-item">
               <Link className="nav-link2" to="/festival" onClick={closeMenu}>Festival</Link>
             </li>

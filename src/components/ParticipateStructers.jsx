@@ -17,13 +17,15 @@ const ParticipateStructers = () => {
             <div className="stat-box">
               <h2 className="stat-value">{stat.value}</h2>
               <p className="stat-label">{stat.label}</p>
+              <button className="read-more-btn" onClick={() => (window.location.href = "/gallery")}>
+        View More
+      </button>
             </div>
+            
           </div>
         ))}
       </div>
-      <button className="view-more-btn" onClick={() => (window.location.href = "/images-category")}>
-        View More
-      </button>
+     
     </div>
   );
 };

@@ -26,6 +26,7 @@ import May from "./components/All-images/May";
 import VisitingTime from "./components/VIsitingTime";
 import Festival from "./components/Festival";
 import Body from "./components/Body";
+import ServiceAssociation from "./components/SeviceAssociation";
 function App() {
   const location = useLocation();
 
@@ -60,6 +61,7 @@ function App() {
         <Route path="/dec" element={<December/>} />
         <Route path="/festival" element={<Festival />} />
         <Route path="/gallery" element={<Body />} />
+        <Route path="/service-association" element={<ServiceAssociation/>} />
       </Routes>
       <Footer />
     </>

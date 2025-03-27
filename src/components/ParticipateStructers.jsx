@@ -17,7 +17,7 @@ const ParticipateStructers = () => {
             <div className="stat-box">
               <h2 className="stat-value">{stat.value}</h2>
               <p className="stat-label">{stat.label}</p>
-              <button className="read-more-btn" onClick={() => (window.location.href = "/gallery")}>
+              <button className="read-more-btn" onClick={() => (window.location.href = "/service-association")}>
         View More
       </button>
             </div>

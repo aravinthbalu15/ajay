@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import BackgroundSlider from "./Background";
-import Event from "../components/Event";
-import President from "../components/President";
-import History from "../components/History";
+import Body from "./Body";
+import Family from "./Family";
+import President from "./President";
 import Quotes from "../components/Quotes";
-import VIsitingTime from "../components/VIsitingTime";
 import ImageLink from "../components/ImageLink";
-import VIdeoLink from "../components/VIdeoLink";
-import Family from "../components/Family";
+import VIsitingTime from "../components/VIsitingTime";
+import Event from "../components/Event";
+import History from "../components/History";
+import VIdeoLink from "../components/VIdeoLink"
 import ParticipateStructers from "../components/participative-structures/ParticipateStructers";
 
 const Home = () => {
@@ -27,20 +28,20 @@ const Home = () => {
   return (
     <div>
       <BackgroundSlider />
+      <div className={`content ${showContent ? "visible" : "hidden"}`}>
       <Event />
       <President />
       <History />
-      <Quotes />
-      <div className={`content ${showContent ? "visible" : "hidden"}`}>
-        {/* This is the Schedule Section */}
-        <div id="schedule">
-          <VIsitingTime />
-        </div>
+     
+          <Quotes />
+       
+        <VIsitingTime />
+        <ImageLink /> 
+        
+         <VIdeoLink />
+        <Family /> 
+        <ParticipateStructers/>
       </div>
-      <ImageLink />
-      <VIdeoLink />
-      <Family />
-      <ParticipateStructers />
     </div>
   );
 };

@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link for navigation
 import "../../Style/ParticipateStructers.css"; // Ensure you have this CSS file
 
 const ParticipateStructers = () => {
   const stats = [
-    { value: "5", label: "திருத்தூதர்கள் சங்கங்கள்", link: "./one" },
-    { value: "7", label: "உருவாக்க இயக்கங்கள்", link: "./two" },
-    { value: "4", label: "சேவை அமைப்புகள்", link: "./three" },
-    { value: "4", label: "பொது அமைப்புகள்", link: "./four" },
-    { value: "3", label: "நிறைவு அமைப்புகள்", link: "./five" }
+    { value: "5", label: "திருத்தூதர்கள் சங்கங்கள்", path: "/one" },
+    { value: "7", label: "உருவாக்க இயக்கங்கள்", path: "/two" },
+    { value: "4", label: "சேவை அமைப்புகள்", path: "/three" },
+    { value: "4", label: "பொது அமைப்புகள்", path: "/four" },
+    { value: "3", label: "நிறைவு அமைப்புகள்", path: "/five" }
   ];
 
   return (
@@ -20,12 +21,9 @@ const ParticipateStructers = () => {
               <div className="stat-box">
                 <h2 className="stat-value">{stat.value}</h2>
                 <p className="stat-label">{stat.label}</p>
-                <button
-                  className="read-more-btn"
-                  onClick={() => (window.location.href = stat.link)}
-                >
+                <Link to={stat.path} className="read-more-btn">
                   View More
-                </button>
+                </Link>
               </div>
             </div>
           ))}

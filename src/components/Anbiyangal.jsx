@@ -6,12 +6,11 @@ import Image2 from "../images/all-soul/2.png";
 import Image3 from "../images/all-soul/3.png";
 
 import Image4 from "../images/all-soul/stjoseph1.png";
-import Image5 from "../images/all-soul/dhanus.jpg";
-import Image6 from "../images/all-soul/anbiyam3.jpg";
-import head1 from "../images/anbiyam/1head.jpeg";
-import sec1 from "../images/anbiyam/1sec.jpeg";
-import tre1 from "../images/anbiyam/1tre.jpeg";
-import anb4 from "../images/all-soul/infant1.jpg";
+import Image6 from "../images/all-soul/anbiyam3.png";
+import head1 from "../images/anbiyam/1head.png";
+import sec1 from "../images/anbiyam/1sec.png";
+import tre1 from "../images/anbiyam/1tre.png";
+import anb4 from "../images/all-soul/infant1.png";
 
 
 
@@ -34,7 +33,7 @@ const Anbiyangal = () => {
         {/* Left Side - Three Circular Images with Description */}
         <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side">
           <div className="image-box d-flex align-items-center">
-            <img src={Image5} alt="Image 1" className="circle-img" />
+            <img src={Image3} alt="Image 1" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">தலைவர்</h1>
               <p className="image-desc">தலைவர்</p>
@@ -69,7 +68,7 @@ const Anbiyangal = () => {
 {/* anbiyangal-2 */}
 
 
-    <Container className="anbiyangal-container">
+    <Container className="anbiyangal-container ">
       <h1 className="section-title">அன்பியம்-2</h1>
       <p className="section-subtitle text-center">சதா சகாய மாதா அன்பியம்</p>
       

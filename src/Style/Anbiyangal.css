@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 /* General container styling */
 .anbiyangal-container {
   padding-top: 100px;
-  padding-bottom: 50px;
 }
 
 /* Section Title */
@@ -46,12 +44,24 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+.circle1-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ddd;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 
 .circle-img:hover {
   transform: rotate(10deg) scale(1.1);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
-
+.circle1-img:hover {
+  transform: rotate(-10deg) scale(1.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
 /* Text Content */
 .text-content {
   display: flex;

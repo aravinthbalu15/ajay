@@ -1,0 +1,136 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* Global Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+  color: #333;
+}
+
+/* Container Styling */
+.service-container {
+  max-width: 1100px;
+  padding: 80px 30px;
+  margin: auto;
+  /* background: #fff; */
+  border-radius: 12px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.8s ease-in-out;
+ padding-top: 100px;
+}
+
+/* Profile Image Styling */
+.profile-image {
+  width: 300px;
+  height: 350px;
+  border-radius: 5px;
+  object-fit: cover;
+  border: 2px solid #080808;
+  box-shadow: 0px 8px 20px rgba(19, 4, 4, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}
+
+/* Heading Styling */
+.service-history-heading {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0a0a0a;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-history-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 100px;
+  height: 5px;
+  background: #f01b1b;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  transition: width 0.4s ease-in-out;
+}
+
+.service-history-heading:hover::after {
+  width: 140px;
+}
+
+/* Information Styling */
+.service-container p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  font-weight: 500;
+  color: #444;
+  margin: 5px 0;
+}
+
+.service-container p strong {
+  color: #1517b8;
+  font-weight: 600;
+}
+
+/* Button Styling */
+.service-view-more {
+  display: inline-block;
+  background: #141211;
+  color: white;
+  font-weight: 600;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 15px rgba(255, 87, 51, 0.4);
+}
+
+.service-view-more:hover {
+  background: #d43f00;
+  transform: scale(1.05);
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .service-history-heading {
+    font-size: 2rem;
+  }
+
+  .profile-image {
+    width: 250px;
+    height: 300px;
+  }
+  .service-container{
+    padding-top: 50px;
+  }
+
+  .service-container p {
+    font-size: 1rem;
+    
+  }
+
+  .service-view-more {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}

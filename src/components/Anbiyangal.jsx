@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Image1 from "../images/all-soul/1.png";
 import Image2 from "../images/all-soul/2.png";
 import Image3 from "../images/all-soul/3.png";
+
 import Image4 from "../images/all-soul/stjoseph1.png";
 import Image5 from "../images/all-soul/dhanus.jpg";
 import Image6 from "../images/all-soul/anbiyam3.jpg";
@@ -55,18 +56,18 @@ const Anbiyangal = () => {
           </div>
     </Col>
 
-    {/* Right Side - Rectangular Image (Mobile: First, Desktop: Second) */}
-    <Col md={6} className="d-flex flex-column align-items-start text-left right-side order-0 order-md-1">
-      {/* ... rectangular image content ... */}
-      <img src={Image4} alt="Rectangular Image" className="rect-img " />
-          <h1 className="rect-title">Main Heading</h1>
-          <p className="rect-desc">This is the detailed description for the rectangular image. It provides more information about the content displayed.</p>
-    </Col>
-  </Row>
+{/* Right Side - Rectangular Image (Mobile: First, Desktop: Second) */}
+<Col md={6} className="d-flex flex-column align-items-start text-left right-side order-0 order-md-1">
+{/* ... rectangular image content ... */}
+<img src={Image4} alt="Rectangular Image" className="rect-img " />
+<h1 className="rect-title">Main Heading</h1>
+<p className="rect-desc">This is the detailed description for the rectangular image. It provides more information about the content displayed.</p>
+</Col>
+</Row>
 </Container>
 
-    
-    {/* anbiyangal-2 */}
+{/* anbiyangal-2 */}
+
 
     <Container className="anbiyangal-container">
       <h1 className="section-title">அன்பியம்-2</h1>
@@ -303,18 +304,21 @@ const Anbiyangal = () => {
           </div>
     </Col>
 
-    {/* Right Side - Rectangular Image (Mobile: First, Desktop: Second) */}
-    <Col md={6} className="d-flex flex-column align-items-start text-left right-side order-0 order-md-1">
-      {/* ... rectangular image content ... */}
-      <img src={Image4} alt="Rectangular Image" className="rect-img" />
-          <h1 className="rect-title">Main Heading</h1>
-          <p className="rect-desc">This is the detailed description for the rectangular image. It provides more information about the content displayed.</p>
-    </Col>
-  </Row>
-    </Container>
+
+
+{/* Right Side - Rectangular Image (Mobile: First, Desktop: Second) */}
+<Col md={6} className="d-flex flex-column align-items-start text-left right-side order-0 order-md-1">
+{/* ... rectangular image content ... */}
+<img src={Image4} alt="Rectangular Image" className="rect-img" />
+<h1 className="rect-title">Main Heading</h1>
+<p className="rect-desc">This is the detailed description for the rectangular image. It provides more information about the content displayed.</p>
+</Col>
+</Row>
+</Container>
 </>
-    
-  );
+);
 }
 
 export default Anbiyangal;
+
+

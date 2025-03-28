@@ -23,8 +23,15 @@ import December from "./components/All-images/December";
 import November from "./components/All-images/November";
 import January from "./components/All-images/January";
 import May from "./components/All-images/May";
-import VisitingTime from "./components/VIsitingTime";
+
 import Festival from "./components/Festival";
+import Body from "./components/Body";
+import One from "./components/participative-structures/One";
+import Two from "./components/participative-structures/Two";
+import Three from "./components/participative-structures/Three";
+import Four from "./components/participative-structures/Four";
+import Five from "./components/participative-structures/Five";
+import Service from "./components/Service";
 function App() {
   const location = useLocation();
 
@@ -58,6 +65,13 @@ function App() {
         <Route path="/nov" element={<November/>} />
         <Route path="/dec" element={<December/>} />
         <Route path="/festival" element={<Festival />} />
+        <Route path="/gallery" element={<Body />} />
+        <Route path="/one" element={<One />} />
+        <Route path="/two" element={<Two />} />
+        <Route path="/three" element={<Three />} />
+        <Route path="/four" element={<Four />} />
+        <Route path="/five" element={<Five />} />
+        <Route path="/service" element={<Service />} />
       </Routes>
       <Footer />
     </>

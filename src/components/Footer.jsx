@@ -22,7 +22,7 @@ const Footer = () => {
 
           <div className="social-icons">
             <a href="#"><FaFacebook /></a>
-            <a href="#"><FaInstagram /></a>
+            <a href="https://www.instagram.com/st_josephs_church_kamplar?igsh=MWF3NjQwbXNwN21nZQ%3D%3D&utm_source=qr"><FaInstagram /></a>
             <a href="#"><FaYoutube /></a>
             <a href="#"><FaTwitter /></a>
           </div>

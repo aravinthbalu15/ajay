@@ -57,7 +57,7 @@ const Nav = () => {
 
                 <li><Link className="dropdown-item4" to="/ourparish" onClick={closeMenu}>About us</Link></li>
                 <li><Link className="dropdown-item4" to="/anbiyangal" onClick={closeMenu}>History</Link></li>
-                <li><Link className="dropdown-item4" to="/anbiyangal" onClick={closeMenu}>Our people at Service</Link></li>
+                <li><Link className="dropdown-item4" to="/service" onClick={closeMenu}>Our people at Service</Link></li>
               </ul>
             </li>
             

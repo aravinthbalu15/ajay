@@ -12,8 +12,8 @@ return (
 {/* anbiyangal-1 */}
 {/* anbiyangal-1 */}
 <Container className="anbiyangal-container mt-5">
-<h1 className="section-title">Anbiyanga-1</h1>
-<p className="section-subtitle text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, sit!</p>
+<h1 className="section-title">அன்பியம்-1</h1>
+<p className="section-subtitle text-center">புனித சூசையப்பர் அன்பியம்</p>
 <Row className="align-items-center">
 {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
 <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side order-1 order-md-0">
@@ -54,8 +54,8 @@ return (
 {/* anbiyangal-2 */}
 
 <Container className="anbiyangal-container2">
-<h1 className="section-title">Anbiyanga-2</h1>
-<p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, totam?</p>
+<h1 className="section-title">அன்பியம்-2</h1>
+<p className="section-subtitle text-center">சதா சகாய மாதா அன்பியம்</p>
 <Row className="align-items-center">
 {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
 <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side order-1 order-md-0">
@@ -94,8 +94,8 @@ return (
 </Container>
 {/* anbiyangal-3 */}
 <Container className="anbiyangal-container3">
-<h1 className="section-title">Anbiyanga-3</h1>
-<p className="section-subtitle text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, id?</p>
+<h1 className="section-title">அன்பியம்-3</h1>
+<p className="section-subtitle text-center">விண்ணரசி அன்பியம்</p>
 <Row className="align-items-center">
 {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
 <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side order-1 order-md-0">
@@ -134,8 +134,9 @@ return (
 </Container>
 {/* anbiyangal-4 */}
 <Container className="anbiyangal-container4">
-<h1 className="section-title">Anbiyanga-4</h1>
-<p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, accusamus!</p>
+<h1 className="section-title">அன்பியம்-4</h1>
+<p className="section-subtitle text-center">குழந்தை இயேசு அன்பியம்</p>
+
 <Row className="align-items-center">
 {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
 <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side order-1 order-md-0">
@@ -174,8 +175,8 @@ return (
 </Container>
 {/* anbiyangal-5 */}
 <Container className="anbiyangal-container5">
-<h1 className="section-title">Anbiyanga-5</h1>
-<p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, minus.</p>
+<h1 className="section-title">அன்பியம்-5</h1>
+<p className="section-subtitle text-center">அன்னை தெரேசா அன்பியம்</p>
 <Row className="align-items-center">
 {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
 <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side order-1 order-md-0">
@@ -214,8 +215,8 @@ return (
 </Container>
 {/* anbiyangal-6 */}
 <Container className="anbiyangal-container6">
-<h1 className="section-title">Anbiyanga-6</h1>
-<p className="section-subtitle text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, exercitationem?</p>
+<h1 className="section-title">அன்பியம்-6</h1>
+<p className="section-subtitle text-center">புனித பிரான்சிஸ் சவேரியார் அன்பியம்</p>
 <Row className="align-items-center">
 {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
 <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side order-1 order-md-0">
@@ -254,8 +255,8 @@ return (
 </Container>
 {/* anbiyangal-7 */}
 <Container className="anbiyangal-container7 mb-5">
-<h1 className="section-title">Anbiyanga-7</h1>
-<p className="section-subtitle text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, aspernatur.</p>
+<h1 className="section-title">அன்பியம்-7</h1>
+<p className="section-subtitle text-center">புனித அந்தோனியார் அன்பியம்</p>
 <Row className="align-items-center">
 {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
 <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side order-1 order-md-0">

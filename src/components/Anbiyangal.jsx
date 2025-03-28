@@ -5,6 +5,15 @@ import Image1 from "../images/all-soul/1.png";
 import Image2 from "../images/all-soul/2.png";
 import Image3 from "../images/all-soul/3.png";
 import Image4 from "../images/all-soul/stjoseph1.png";
+import Image5 from "../images/all-soul/dhanus.jpg";
+import Image6 from "../images/all-soul/anbiyam3.jpg";
+import head1 from "../images/anbiyam/1head.jpeg";
+import sec1 from "../images/anbiyam/1sec.jpeg";
+import tre1 from "../images/anbiyam/1tre.jpeg";
+import anb4 from "../images/all-soul/infant1.jpg";
+
+
+
 // import Image5 from "../images/all-soul/madha.png";
 // import Image6 from "../images/all-soul/stjoseph1.png";
 // import Image7 from "../images/all-soul/stjoseph1.png";
@@ -24,24 +33,24 @@ const Anbiyangal = () => {
         {/* Left Side - Three Circular Images with Description */}
         <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side">
           <div className="image-box d-flex align-items-center">
-            <img src={Image1} alt="Image 1" className="circle-img" />
+            <img src={Image5} alt="Image 1" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">தலைவர்</h1>
-              <p className="image-desc">This is the description for Image 1.</p>
+              <p className="image-desc">தலைவர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
-            <img src={Image2} alt="Image 2" className="circle-img" />
+            <img src={Image2} alt="Image 2" className="circle1-img" />
             <div className="text-content">
               <h1 className="image-title">செயலாளர்</h1>
-              <p className="image-desc">This is the description for Image 2.</p>
+              <p className="image-desc">செயலாளர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">பொருளாளர்</h1>
-              <p className="image-desc">This is the description for Image 3.</p>
+              <p className="image-desc">பொருளாளர்</p>
             </div>
           </div>
     </Col>
@@ -71,21 +80,21 @@ const Anbiyangal = () => {
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">தலைவர்</h1>
-              <p className="image-desc">This is the description for Image 1.</p>
+              <p className="image-desc">தலைவர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
-            <img src={Image2} alt="Image 2" className="circle-img" />
+            <img src={Image2} alt="Image 2" className="circle1-img" />
             <div className="text-content">
               <h1 className="image-title">செயலாளர்</h1>
-              <p className="image-desc">This is the description for Image 2.</p>
+              <p className="image-desc">செயலாளர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">பொருளாளர்</h1>
-              <p className="image-desc">This is the description for Image 3.</p>
+              <p className="image-desc">பொருளாளர்</p>
             </div>
           </div>
     </Col>
@@ -110,22 +119,22 @@ const Anbiyangal = () => {
       <div className="image-box d-flex align-items-center">
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">தலைவர்</h1>
-              <p className="image-desc">This is the description for Image 1.</p>
+              <h1 className="image-title">திருமதி.ரேகா</h1>
+              <p className="image-desc">தலைவர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
-            <img src={Image2} alt="Image 2" className="circle-img" />
+            <img src={Image2} alt="Image 2" className="circle1-img" />
             <div className="text-content">
-              <h1 className="image-title">செயலாளர்</h1>
-              <p className="image-desc">This is the description for Image 2.</p>
+              <h1 className="image-title">திருமதி. மரிய செல்வி</h1>
+              <p className="image-desc">செயலாளர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">பொருளாளர்</h1>
-              <p className="image-desc">This is the description for Image 3.</p>
+              <h1 className="image-title">திருமதி:சரண்யா</h1>
+              <p className="image-desc">பொருளாளர்</p>
             </div>
           </div>
     </Col>
@@ -133,7 +142,7 @@ const Anbiyangal = () => {
     {/* Right Side - Rectangular Image (Mobile: First, Desktop: Second) */}
     <Col md={6} className="d-flex flex-column align-items-start text-left right-side order-0 order-md-1">
       {/* ... rectangular image content ... */}
-      <img src={Image4} alt="Rectangular Image" className="rect-img" />
+      <img src={Image6} alt="Rectangular Image" className="rect-img" />
           <h1 className="rect-title">Main Heading</h1>
           <p className="rect-desc">This is the detailed description for the rectangular image. It provides more information about the content displayed.</p>
     </Col>
@@ -149,24 +158,24 @@ const Anbiyangal = () => {
     <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side order-1 order-md-0">
       {/* ... circular images content ... */}
       <div className="image-box d-flex align-items-center">
-            <img src={Image1} alt="Image 1" className="circle-img" />
+            <img src={head1} alt="Image 1" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">தலைவர்</h1>
-              <p className="image-desc">This is the description for Image 1.</p>
+              <h1 className="image-title">திருமதி.S.ஷைனி</h1>
+              <p className="image-desc">தலைவர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
-            <img src={Image2} alt="Image 2" className="circle-img" />
+            <img src={sec1} alt="Image 2" className="circle1-img" />
             <div className="text-content">
-              <h1 className="image-title">செயலாளர்</h1>
-              <p className="image-desc">This is the description for Image 2.</p>
+              <h1 className="image-title">திருமதி.D. S. மோனிஷா</h1>
+              <p className="image-desc">செயலாளர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
-            <img src={Image3} alt="Image 3" className="circle-img" />
+            <img src={tre1} alt="Image 3" className="circle-img" />
             <div className="text-content">
-              <h1 className="image-title">பொருளாளர்</h1>
-              <p className="image-desc">This is the description for Image 3.</p>
+              <h1 className="image-title">திருமதி.V. விஜயா</h1>
+              <p className="image-desc">பொருளாளர்</p>
             </div>
           </div>
     </Col>
@@ -174,7 +183,7 @@ const Anbiyangal = () => {
     {/* Right Side - Rectangular Image (Mobile: First, Desktop: Second) */}
     <Col md={6} className="d-flex flex-column align-items-start text-left right-side order-0 order-md-1">
       {/* ... rectangular image content ... */}
-      <img src={Image4} alt="Rectangular Image" className="rect-img" />
+      <img src={anb4} alt="Rectangular Image" className="rect-img" />
           <h1 className="rect-title">Main Heading</h1>
           <p className="rect-desc">This is the detailed description for the rectangular image. It provides more information about the content displayed.</p>
     </Col>
@@ -193,21 +202,21 @@ const Anbiyangal = () => {
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">தலைவர்</h1>
-              <p className="image-desc">This is the description for Image 1.</p>
+              <p className="image-desc">தலைவர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
-            <img src={Image2} alt="Image 2" className="circle-img" />
+            <img src={Image2} alt="Image 2" className="circle1-img" />
             <div className="text-content">
               <h1 className="image-title">செயலாளர்</h1>
-              <p className="image-desc">This is the description for Image 2.</p>
+              <p className="image-desc">செயலாளர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">பொருளாளர்</h1>
-              <p className="image-desc">This is the description for Image 3.</p>
+              <p className="image-desc">பொருளாளர்</p>
             </div>
           </div>
     </Col>
@@ -234,21 +243,21 @@ const Anbiyangal = () => {
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">தலைவர்</h1>
-              <p className="image-desc">This is the description for Image 1.</p>
+              <p className="image-desc">தலைவர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
-            <img src={Image2} alt="Image 2" className="circle-img" />
+            <img src={Image2} alt="Image 2" className="circle1-img" />
             <div className="text-content">
               <h1 className="image-title">செயலாளர்</h1>
-              <p className="image-desc">This is the description for Image 2.</p>
+              <p className="image-desc">செயலாளர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
             <img src={Image3} alt="Image 3" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">பொருளாளர்</h1>
-              <p className="image-desc">This is the description for Image 3.</p>
+              <p className="image-desc">பொருளாளர்</p>
             </div>
           </div>
     </Col>
@@ -275,14 +284,14 @@ const Anbiyangal = () => {
             <img src={Image1} alt="Image 1" className="circle-img" />
             <div className="text-content">
               <h1 className="image-title">தலைவர்</h1>
-              <p className="image-desc">This is the description for Image 1.</p>
+              <p className="image-desc">தலைவர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">
-            <img src={Image2} alt="Image 2" className="circle-img" />
+            <img src={Image2} alt="Image 2" className="circle1-img" />
             <div className="text-content">
               <h1 className="image-title">செயலாளர்</h1>
-              <p className="image-desc">This is the description for Image 2.</p>
+              <p className="image-desc">செயலாளர்</p>
             </div>
           </div>
           <div className="image-box d-flex align-items-center">

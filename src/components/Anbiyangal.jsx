@@ -21,22 +21,23 @@ return (
 <div className="image-box d-flex align-items-center">
 <img src={Image1} alt="Image 1" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 1</h1>
-<p className="image-desc">This is the description for Image 1.</p>
+<h1 className="image-title">தலைவர்</h1>
+<p className="image-desc">தலைவர்</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image2} alt="Image 2" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 2</h1>
-<p className="image-desc">This is the description for Image 2.</p>
+<h1 className="image-title">செயலாளர்</h1>
+<p className="image-desc">செயலாளர்</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image3} alt="Image 3" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 3</h1>
-<p className="image-desc">This is the description for Image 3.</p>
+
+<h1 className="image-title">பொருளாளர்</h1>
+              <p className="image-desc">பொருளாளர்</p>
 </div>
 </div>
 </Col>
@@ -63,21 +64,21 @@ return (
 <div className="image-box d-flex align-items-center">
 <img src={Image1} alt="Image 1" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 1</h1>
+<h1 className="image-title">தலைவர்</h1>
 <p className="image-desc">This is the description for Image 1.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image2} alt="Image 2" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 2</h1>
+<h1 className="image-title">செயலாளர்</h1>
 <p className="image-desc">This is the description for Image 2.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image3} alt="Image 3" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 3</h1>
+<h1 className="image-title">பொருளாளர்</h1>
 <p className="image-desc">This is the description for Image 3.</p>
 </div>
 </div>
@@ -103,21 +104,21 @@ return (
 <div className="image-box d-flex align-items-center">
 <img src={Image1} alt="Image 1" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 1</h1>
+<h1 className="image-title">தலைவர்</h1>
 <p className="image-desc">This is the description for Image 1.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image2} alt="Image 2" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 2</h1>
+<h1 className="image-title">செயலாளர்</h1>
 <p className="image-desc">This is the description for Image 2.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image3} alt="Image 3" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 3</h1>
+<h1 className="image-title">பொருளாளர்</h1>
 <p className="image-desc">This is the description for Image 3.</p>
 </div>
 </div>
@@ -144,21 +145,21 @@ return (
 <div className="image-box d-flex align-items-center">
 <img src={Image1} alt="Image 1" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 1</h1>
+<h1 className="image-title">தலைவர்</h1>
 <p className="image-desc">This is the description for Image 1.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image2} alt="Image 2" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 2</h1>
+<h1 className="image-title">செயலாளர்</h1>
 <p className="image-desc">This is the description for Image 2.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image3} alt="Image 3" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 3</h1>
+<h1 className="image-title">பொருளாளர்</h1>
 <p className="image-desc">This is the description for Image 3.</p>
 </div>
 </div>
@@ -184,21 +185,21 @@ return (
 <div className="image-box d-flex align-items-center">
 <img src={Image1} alt="Image 1" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 1</h1>
+<h1 className="image-title">தலைவர்</h1>
 <p className="image-desc">This is the description for Image 1.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image2} alt="Image 2" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 2</h1>
+<h1 className="image-title">செயலாளர்</h1>
 <p className="image-desc">This is the description for Image 2.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image3} alt="Image 3" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 3</h1>
+<h1 className="image-title">பொருளாளர்</h1>
 <p className="image-desc">This is the description for Image 3.</p>
 </div>
 </div>
@@ -224,21 +225,21 @@ return (
 <div className="image-box d-flex align-items-center">
 <img src={Image1} alt="Image 1" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 1</h1>
+<h1 className="image-title">தலைவர்</h1>
 <p className="image-desc">This is the description for Image 1.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image2} alt="Image 2" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 2</h1>
+<h1 className="image-title">செயலாளர்</h1>
 <p className="image-desc">This is the description for Image 2.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image3} alt="Image 3" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 3</h1>
+<h1 className="image-title">பொருளாளர்</h1>
 <p className="image-desc">This is the description for Image 3.</p>
 </div>
 </div>
@@ -264,21 +265,21 @@ return (
 <div className="image-box d-flex align-items-center">
 <img src={Image1} alt="Image 1" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 1</h1>
-<p className="image-desc">This is the description for Image 1.</p>
+<h1 className="image-title">தலைவர்</h1>
+<p className="image-desc">தலைவர்</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image2} alt="Image 2" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 2</h1>
+<h1 className="image-title">செயலாளர்</h1>
 <p className="image-desc">This is the description for Image 2.</p>
 </div>
 </div>
 <div className="image-box d-flex align-items-center">
 <img src={Image3} alt="Image 3" className="circle-img" />
 <div className="text-content">
-<h1 className="image-title">Title 3</h1>
+<h1 className="image-title">பொருளாளர்</h1>
 <p className="image-desc">This is the description for Image 3.</p>
 </div>
 </div>

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+/* General container styling */
+.anbiyangal-container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: left;
+  margin-left: 20px;
+}
+
+/* Left Side - Circular Images */
+.left-side {
+  align-items: flex-start;
+}
+
+.image-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-box:hover {
+  transform: scale(1.05);
+}
+
+/* Circular Images */
+.circle-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ddd;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.circle-img:hover {
+  transform: rotate(10deg) scale(1.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Text Content */
+.text-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.image-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  transition: color 0.3s ease-in-out;
+}
+
+.image-desc {
+  font-size: 1rem;
+  color: #555;
+  max-width: 300px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-box:hover .image-title {
+  color: #007bff;
+}
+
+.image-box:hover .image-desc {
+  opacity: 0.8;
+}
+
+/* Right Side - Rectangular Image */
+.right-side {
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.rect-img {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.rect-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Right Side Text */
+.rect-title {
+  
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: left;
+  transition: color 0.3s ease-in-out;
+}
+
+.rect-desc {
+  font-size: 1rem;
+  color: #555;
+  max-width: 500px;
+  text-align: left;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.right-side:hover .rect-title {
+  color: #28a745;
+}
+
+.right-side:hover .rect-desc {
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .anbiyangal-container {
+    padding-top: 50px;
+  }
+
+  .left-side, .right-side {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .circle-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .rect-img {
+    width: 100%;
+  }
+}

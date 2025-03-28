@@ -9,7 +9,7 @@ const Four = () => {
       </h1>
 
       {/* Container 1 */}
-      <h1 className="section-title mt-5">மரைக்கல்லி மன்றம்
+      <h1 className="section-title ">மறைக்கல்வி மன்றம்
       </h1>
       <div className="body-wrapper">
         <div className="body-container">
@@ -32,7 +32,7 @@ const Four = () => {
       </div>
 
       {/* Container 2 */}
-      <h1 className="section-title mt-5">வழிபாட்டு குழு
+      <h1 className="section-title ">வழிபாட்டு குழு
       </h1>
       <div className="body-wrapper">
         <div className="body-container">
@@ -52,7 +52,7 @@ const Four = () => {
       </div>
 
       {/* Container 3 */}
-      <h1 className="section-title mt-5">பாடற்குழு
+      <h1 className="section-title ">பாடற்குழு
       </h1>
       <div className="body-wrapper">
         <div className="body-container">
@@ -72,7 +72,7 @@ const Four = () => {
       </div>
 
       {/* Container 4 */}
-      <h1 className="section-title mt-5">பிச்சிராப்
+      <h1 className="section-title ">பிச்சிராப்
       </h1>
       <div className="body-wrapper">
         <div className="body-container">

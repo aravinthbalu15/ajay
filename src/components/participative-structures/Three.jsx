@@ -8,7 +8,7 @@ const Three = () => {
       <h1 className="section-title mt-5">சேவை அமைப்புகள்</h1>
 
       {/* Container 1 */}
-      <h1 className="section-title mt-5">பெண்கள் கிரம முன்னேற்றச் சங்கம்
+      <h1 className="section-title ">பெண்கள் கிரம முன்னேற்றச் சங்கம்
       </h1>
       <div className="body-wrapper">
         <div className="body-container">
@@ -31,7 +31,7 @@ const Three = () => {
       </div>
 
       {/* Container 2 */}
-      <h1 className="section-title mt-5">கோல்பிங் இயக்கம்
+      <h1 className="section-title ">கோல்பிங் இயக்கம்
       </h1>
       <div className="body-wrapper">
         <div className="body-container">
@@ -51,7 +51,7 @@ const Three = () => {
       </div>
 
       {/* Container 3 */}
-      <h1 className="section-title mt-5">கைத்கள் தன்னம்பிக்கைக் இயக்கம்
+      <h1 className="section-title ">கைத்கள் தன்னம்பிக்கைக் இயக்கம்
       </h1>
       <div className="body-wrapper">
         <div className="body-container">
@@ -71,7 +71,7 @@ const Three = () => {
       </div>
 
       {/* Container 4 */}
-      <h1 className="section-title mt-5"> அதித்தா முழுவராற்றுச் சங்கம்
+      <h1 className="section-title "> அதித்தா முழுவராற்றுச் சங்கம்
       </h1>
       <div className="body-wrapper">
         <div className="body-container">

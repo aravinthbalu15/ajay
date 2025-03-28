@@ -8,7 +8,7 @@ const Five = () => {
       <h1 className="section-title mt-5">நிறைவு அமைப்புகள்</h1>
 
       {/* Container 1 */}
-      <h1 className="section-title mt-5">பங்கு அரும்பயன் பேரவை</h1>
+      <h1 className="section-title ">பங்கு அருட்பணிப் பேரவை</h1>
       <div className="body-wrapper">
         <div className="body-container">
           {/* Left Side - Text */}
@@ -30,7 +30,7 @@ const Five = () => {
       </div>
 
       {/* Container 2 */}
-      <h1 className="section-title mt-5">அன்பின் ஒருங்கிணைப்பு</h1>
+      <h1 className="section-title ">அன்பின் ஒருங்கிணைப்பு</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -49,7 +49,7 @@ const Five = () => {
       </div>
 
       {/* Container 3 */}
-      <h1 className="section-title mt-5">பங்கிற்கு அமைப்புகளின் ஒருங்கிணைப்</h1>
+      <h1 className="section-title ">பங்கிற்கு அமைப்புகளின் ஒருங்கிணைப்</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">

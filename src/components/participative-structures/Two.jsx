@@ -8,7 +8,7 @@ const Two = () => {
       <h1 className="section-title mt-5">உருவாக்க இயக்கங்கள்</h1>
 
       {/* Container 1 */}
-      <h1 className="section-title mt-5">பாஸர் சபை</h1>
+      <h1 className="section-title ">பாலர் சபை</h1>
       <div className="body-wrapper">
         <div className="body-container">
           {/* Left Side - Text */}
@@ -30,7 +30,7 @@ const Two = () => {
       </div>
 
       {/* Container 2 */}
-      <h1 className="section-title mt-5">சிறார் இயக்கம்</h1>
+      <h1 className="section-title ">சிறார் இயக்கம்</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -49,7 +49,7 @@ const Two = () => {
       </div>
 
       {/* Container 3 */}
-      <h1 className="section-title mt-5"> இளங்கிறிஸ்தவ மாணாக்கர் இயக்கம்</h1>
+      <h1 className="section-title "> இளங்கிறிஸ்தவ மாணாக்கர் இயக்கம்</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -68,7 +68,7 @@ const Two = () => {
       </div>
 
       {/* Container 4 */}
-      <h1 className="section-title mt-5">இளைப்பேரி இயக்கம் (ஆண்கள்)</h1>
+      <h1 className="section-title ">இளைஞர் இயக்கம்(ஆண்கள்)</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -86,7 +86,7 @@ const Two = () => {
         </div>
       </div>
       {/* Container 5 */}
-      <h1 className="section-title mt-5">இளைப்பேரி இயக்கம் (பெண்கள்)
+      <h1 className="section-title ">இளைஞர் இயக்கம் (பெண்கள்)
       </h1>
       <div className="body-wrapper">
         <div className="body-container">
@@ -105,7 +105,7 @@ const Two = () => {
         </div>
       </div>
       {/* Container 6 */}
-      <h1 className="section-title mt-5"> பெண்கள் இயக்கம்
+      <h1 className="section-title "> பெண்கள் இயக்கம்
       </h1>
       <div className="body-wrapper">
         <div className="body-container">
@@ -124,7 +124,7 @@ const Two = () => {
         </div>
       </div>
       {/* Container 6 */}
-      <h1 className="section-title mt-5"> விலியப் பணிக்குழு
+      <h1 className="section-title "> விவிலிய பணிக்குழு
 
       </h1>
       <div className="body-wrapper">

@@ -37,7 +37,7 @@ const WordOfGod = () => {
             <h2 key={currentQuote} className="quote fade-in-slide">
               <span className="highlights">"{quotes[currentQuote].text}"</span>
             </h2>
-            <p className="reference">{quotes[currentQuote].reference}</p>
+            <p className="references">{quotes[currentQuote].reference}</p>
           </Col>
         </Row>
       </Container>

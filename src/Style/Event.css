@@ -1,41 +1,90 @@
-/* Centering Upcoming Events */
+/* Overall Page Styling */
 .upcoming-events {
   text-align: center;
-  margin: 40px auto;
-  padding: 20px;
+  margin: 50px auto;
+  padding: 40px;
   max-width: 1200px;
+ 
 }
 
-/* Carousel Slides */
+/* Section Title */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #007bff;
+  margin: 8px auto;
+  border-radius: 2px;
+}
+
+/* Event Category Title */
+.event-titles {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Carousel Styling */
 .slick-slide {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Event Image Styling */
-.event-card img {
-  width: 100%; /* Make image responsive */
-  max-width: 1200px; /* Set max width */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* Event Card */
+.event-card {
+  position: relative;
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.event-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+
+/* Event Image */
+.event-card img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Event Caption */
+.event-caption {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #444;
+  margin-top: 12px;
+  padding: 8px;
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 8px;
+  display: inline-block;
 }
 
 /* Slick Dots Styling */
 .slick-dots li button:before {
-  color: #000;
+  color: #666;
   font-size: 12px;
+  transition: color 0.3s ease;
 }
 
 .slick-dots li.slick-active button:before {
   color: #007bff;
+  font-size: 14px;
 }
 
 /* ---------------------- RESPONSIVE DESIGN ---------------------- */
@@ -44,7 +93,6 @@
 @media (max-width: 1200px) {
   .event-card img {
     max-width: 1000px;
-    height: auto;
   }
 }
 
@@ -52,7 +100,6 @@
 @media (max-width: 992px) {
   .event-card img {
     max-width: 800px;
-    height: auto;
   }
 }
 
@@ -60,7 +107,18 @@
 @media (max-width: 768px) {
   .event-card img {
     max-width: 600px;
-    height: auto;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .event-title {
+    font-size: 18px;
+  }
+
+  .event-caption {
+    font-size: 16px;
   }
 }
 
@@ -68,6 +126,17 @@
 @media (max-width: 576px) {
   .event-card img {
     max-width: 100%;
-    height: auto;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .event-title {
+    font-size: 16px;
+  }
+
+  .event-caption {
+    font-size: 14px;
   }
 }

@@ -65,6 +65,9 @@
     font-family: 'Raleway', sans-serif;
     color: #B0B0B0;
 }
+.references{
+    font-size: 20px;
+}
 
 /* Smooth Fade & Slide Animation */
 @keyframes fadeInSlide {

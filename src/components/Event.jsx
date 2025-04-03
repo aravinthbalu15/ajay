@@ -11,11 +11,14 @@ import event2 from "../images/event-images/2.png";
 import event3 from "../images/event-images/3.png";
 import event4 from "../images/event-images/1.png";
 
-const eventPosters = [
-  { id: 1, image: event1, alt: "Event 1" },
-  { id: 2, image: event2, alt: "Event 2" },
-  { id: 3, image: event3, alt: "Event 3" },
-  { id: 4, image: event4, alt: "Event 4" },
+const eventPostersLeft = [
+  { id: 1, image: event1, alt: "Event 1", title: "Tech Conference" },
+  { id: 2, image: event2, alt: "Event 2", title: "Startup Meetup" },
+];
+
+const eventPostersRight = [
+  { id: 3, image: event3, alt: "Event 3", title: "AI Workshop" },
+  { id: 4, image: event4, alt: "Event 4", title: "Cyber Security Summit" },
 ];
 
 const UpcomingEvents = () => {
@@ -35,36 +38,54 @@ const UpcomingEvents = () => {
     autoplaySpeed: 3000,
     arrows: true,
     responsive: [
-      {
-        breakpoint: 1200, // Large screens
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 992, // Medium screens (tablets)
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 768, // Small screens (mobile)
-        settings: {
-          slidesToShow: 1,
-        },
-      },
+      { breakpoint: 1200, settings: { slidesToShow: 1 } },
+      { breakpoint: 992, settings: { slidesToShow: 1 } },
+      { breakpoint: 768, settings: { slidesToShow: 1 } },
     ],
   };
 
   return (
     <div className="container upcoming-events">
-      <h2 className="text-center mb-4">UPCOMING EVENTS</h2>
-      <div className="row justify-content-center">
-        <div className="col-lg-10 col-md-12 col-sm-12">
+      <div className="row justify-content-center gy-5 ">
+        {/* Left Carousel */}
+        <div className="col-lg-5 col-md-6 col-sm-12 mb-5 mb-lg-0">
+          <h3 className="text-center event-titles">Current Events</h3>
           <Slider {...settings}>
-            {eventPosters.map((event) => (
-              <div key={event.id} className="event-card" onClick={() => handleEventClick(event.id)}>
-                <img src={event.image} alt={event.alt} className="event-image img-fluid" />
+            {eventPostersLeft.map((event) => (
+              <div 
+                key={event.id} 
+                className="event-card" 
+                onClick={() => handleEventClick(event.id)}
+              >
+                <img 
+                  src={event.image} 
+                  alt={event.alt} 
+                  className="event-image img-fluid" 
+                />
+                <p className="event-caption">{event.title}</p>
+              </div>
+            ))}
+          </Slider>
+        </div>
+
+        <div className="col-lg-2 d-none d-lg-block"></div>
+
+        {/* Right Carousel */}
+        <div className="col-lg-5 col-md-6 col-sm-12">
+          <h3 className="text-center event-titles">Upcoming Events</h3>
+          <Slider {...settings}>
+            {eventPostersRight.map((event) => (
+              <div 
+                key={event.id} 
+                className="event-card" 
+                onClick={() => handleEventClick(event.id)}
+              >
+                <img 
+                  src={event.image} 
+                  alt={event.alt} 
+                  className="event-image img-fluid" 
+                />
+                <p className="event-caption">{event.title}</p>
               </div>
             ))}
           </Slider>

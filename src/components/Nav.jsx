@@ -69,8 +69,18 @@ const Nav = () => {
             <li className="nav-item">
               <Link className="nav-link2" to="/ourparish" onClick={closeMenu}>Administration</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link2" to="/anbiyangal" onClick={closeMenu}>Anbiyangal</Link>
+            <li className="nav-item dropdown">
+              <button className={`nav-link2 dropdown-toggle ${dropdownOpen === "home" ? "open" : ""}`} onClick={() => toggleDropdown("home")}>Participate Structures</button>
+              <ul className={`dropdown-menu3 ${dropdownOpen === "home" ? "show" : ""}`}>
+              <li><Link className="dropdown-item4" to="/one" onClick={closeMenu}>திருத்தூதர்கள் சங்கங்க</Link></li>
+
+                <li><Link className="dropdown-item4" to="/two" onClick={closeMenu}>உருவாக்க இயக்கங்கள்</Link></li>
+                <li><Link className="dropdown-item4" to="/three"  onClick={closeMenu}>சேவை அமைப்புகள்</Link></li>
+                <li><Link className="dropdown-item4" to="/four" onClick={closeMenu}>பொது அமைப்புகள்</Link></li>
+                <li><Link className="dropdown-item4" to="/five" onClick={closeMenu}>நிறைவு அமைப்புகள்</Link></li>
+                <li><Link className="dropdown-item4" to="/anbiyangal" onClick={closeMenu}>Anbiyangal</Link></li>
+
+              </ul>
             </li>
 
 

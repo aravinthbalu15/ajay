@@ -175,6 +175,9 @@
   .navbar1-toggler {
     display: block;
   }
+  .newline{
+    font-size: 1.5rem;
+  }
 
   .navbar1-collapse {
     width: 100%;
@@ -287,6 +290,9 @@
 @media (max-width: 480px) {
   .navbar1-brand h1 {
     font-size: 1.5rem;
+  }
+  .newline{
+    font-size: 1rem;
   }
 
   .logo1 {

@@ -12,12 +12,20 @@
   text-align: left;
   margin-left: 20px;
 }
-
+.members-list1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content:center;
+  max-width: 1300px;
+ 
+}
 .section-subtitle {
   font-size: 1.2rem;
   color: #666;
   text-align: left;
   margin-left: 20px;
+  
 }
 
 /* Left Side - Circular Images */

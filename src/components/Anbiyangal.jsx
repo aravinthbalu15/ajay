@@ -21,11 +21,11 @@ const member1 = [
 
 const Anbiyangal = () => {
 return (
-<><br /><br /><br /><br /><br /><br /><br /><br /><b><br /></b>
+<><br /><br /><br /><br /><br /><b><br /></b>
 
 <h1 className="section-title">Co-Ordination of Anbiyam</h1>
 
-<div className="members-list1 mt-5">
+<div className="members-list12 mt-5">
           {members.map((member) => (
             <div key={member.id} className="member-row" onClick={() => setSelectedMember(member)}>
               <img src={member.img} alt={member.name} className="member-image" />
@@ -36,7 +36,7 @@ return (
         </div> 
 {/* anbiyangal-1 */}
 {/* anbiyangal-1 */}
-<Container className="anbiyangal-container mt-5">
+<Container className="anbiyangal-container ">
 <h1 className="section-title">அன்பியம்-1</h1>
 <p className="section-subtitle text-center">புனித சூசையப்பர் அன்பியம்</p>
 <Row className="align-items-center">

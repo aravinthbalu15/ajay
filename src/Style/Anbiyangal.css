@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 /* General container styling */
 .anbiyangal-container {
   padding-top: 100px;
@@ -12,27 +13,31 @@
   text-align: left;
   margin-left: 20px;
 }
-.members-list1 {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-  justify-content:center;
-  max-width: 1300px;
- 
+
+.members-list12 {
+  display: flex;
+  justify-content: center;
+   /* Allow wrapping on smaller screens */
+  gap: 30px;
+  margin-left: 7%;
+  max-width: 1100px;
 }
+
 .section-subtitle {
   font-size: 1.2rem;
   color: #666;
   text-align: left;
   margin-left: 20px;
-  
 }
 
 /* Left Side - Circular Images */
 .left-side {
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Image Box */
 .image-box {
   display: flex;
   align-items: center;
@@ -91,10 +96,13 @@
 
 /* Right Side - Rectangular Image */
 .right-side {
-  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
 }
 
+/* Rectangular Image */
 .rect-img {
   width: 80%;
   border-radius: 10px;
@@ -109,7 +117,6 @@
 
 /* Right Side Text */
 .rect-title {
-  
   font-weight: bold;
   margin-top: 20px;
   text-align: left;
@@ -132,15 +139,28 @@
   opacity: 0.9;
 }
 
-/* Responsive Design */
+/* Responsive Design for Mobile */
 @media (max-width: 768px) {
   .anbiyangal-container {
     padding-top: 50px;
   }
 
+  .members-list12 {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    margin-left: 0;
+    gap: 20px;
+  }
+
   .left-side, .right-side {
-    align-items: flex-start;
-    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-box {
+    flex-direction: column;
+    text-align: center;
   }
 
   .circle-img {
@@ -150,5 +170,13 @@
 
   .rect-img {
     width: 100%;
+  }
+
+  .text-content {
+    text-align: center;
+  }
+
+  .rect-title, .rect-desc {
+    text-align: center;
   }
 }

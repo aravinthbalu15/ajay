@@ -23,14 +23,24 @@ const About = () => {
       <Row className="justify-content-center">
         <Col md={10}>
           <p className="full-width-text">
-            St. Joseph’s Church, Kamplar, is a center of deep Christian faith and heritage. Located on the western side of Kanyakumari District in Killiyoor Taluk, Tamil Nadu, it lies 25 km from Nagercoil and within 50 km of Trivandrum. The church is just 3.5 km from Nattalam, the native village of St. Devasahayam Pillai, adding to its spiritual significance. It belongs to the Kuzhithurai Diocese.
-            <br /><br />
-            Kamplar, once known for its Palmyra-based traditions and farming, enjoys a pleasant climate with both Southwest and Northeast monsoons. The church serves over 200 families, organized into seven Anbiyams (small Christian communities).
-            <br /><br />
-            St. Joseph, the patron saint, is honored with a grand feast every May, drawing Kamplar natives from around the world. The church has Tholayavattam Parish as its substation.
-            <br /><br />
-            Kamplar Church holds an ancient Christian history linked to a stone cross in Devandivilai, believed to be from St. Thomas’ era. This cross marks the first step toward Christianity in the region, eventually leading to the present-day church. Its deep-rooted traditions and mysteries remain a testament to faith, awaiting divine revelation.
-          </p>
+          We, the people of St. Joseph's Church parish, Kamplar, deeply cherish our
+Chris=an Faith and long Catholic heritage. Our parish belongs to the Roman
+Catholic diocese of Kuzhithurai. That our church is just 3.5 k.m. away from
+Natalam, the na=ve village of St. Devasahayam, adds to its spiritual significance.            <br /><br />
+Our parish has about 225 families organized into seven Basic Christan
+Communi=es (Anbiams). It is a very ac=ve parish, led by our parish pastoral
+council, and having a plethora of apostolic associa=ons and par=cipatory
+structures to form us and to serve people.            <br /><br />
+The stone-cross, belonging to St. Thomas' era, found at Devandivilai, within our
+parish, remain a witness, reminding us of the =mes of yore when Chris=an faith
+dawned upon us.            <br /><br />
+Kamplar, once known for its Palmyra-based tradi=ons and farming, s=ll keeping
+its lush green environment, enjoys a pleasant climate with both Southwest and
+Northeast monsoons.          </p>
+<p>St. Joseph's Church, Kamplar is located within Killiyoor Taluk, at the South-
+Western part of Kanyakumari District, Tamil Nadu. It lies (at 8015'17''N and
+77012'46'') about 25 K.M. away from Nagercoil, westward and about 50 K.M.
+from Thiruvananthapuram to the east.</p>
         </Col>
       </Row>
       

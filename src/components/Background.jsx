@@ -14,6 +14,13 @@ const proverbs = [
   "Love never fails"
 ];
 
+const paragraphs = [
+  ["John 15:13"],
+  ["Psalm 23:1"],
+  ["John 3:16"],
+  ["Love 3:90"]
+];
+
 const BackgroundSlider = () => {
   const [index, setIndex] = useState(0);
 
@@ -28,32 +35,40 @@ const BackgroundSlider = () => {
   const prevSlide = () => setIndex((prev) => (prev - 1 + images.length) % images.length);
 
   return (
-    <div className="background-slider">
-      {images.map((img, i) => (
-        <div
-          key={i}
-          className={`bg-image ${i === index ? "active" : "inactive"}`}
-          style={{ backgroundImage: `url(${img})` }}
-        />
-      ))}
-
-      <div className="overlay">
-        {proverbs.map((text, i) => (
-          <div key={i} className={`proverb ${i === index ? "show" : "hide"}`}>
-            <span className="quote-mark left">“</span>
-            <p>{text}</p>
-            <span className="quote-mark right">”</span>
-          </div>
+    <>
+      <div className="background-slider">
+        {images.map((img, i) => (
+          <div
+            key={i}
+            className={`bg-image ${i === index ? "active" : "inactive"}`}
+            style={{ backgroundImage: `url(${img})` }}
+          />
         ))}
-      </div>
 
-      <button className="arrow left-arrow" onClick={prevSlide}>
-        <FaArrowLeft />
-      </button>
-      <button className="arrow right-arrow" onClick={nextSlide}>
-        <FaArrowRight />
-      </button>
-    </div>
+        <div className="overlay">
+          {proverbs.map((text, i) => (
+            <div key={i} className={`proverb ${i === index ? "show" : "hide"}`}>
+              <span className="quote-mark left">“</span>
+              <p>{text}</p>
+              <span className="quote-mark right">”</span>
+
+              {/* Render first paragraph */}
+              <div>
+                <p className="hello">{paragraphs[i][0]}</p>
+              </div>
+              
+            </div>
+          ))}
+        </div>
+
+        <button className="arrow left-arrow" onClick={prevSlide}>
+          <FaArrowLeft />
+        </button>
+        <button className="arrow right-arrow" onClick={nextSlide}>
+          <FaArrowRight />
+        </button>
+      </div>
+    </>
   );
 };
 

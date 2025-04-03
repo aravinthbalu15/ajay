@@ -85,6 +85,29 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+/* Style for the additional paragraph */
+.additional-paragraph {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  max-width: 90%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* Show the additional paragraph when the proverb is active */
+.proverb.show .additional-paragraph {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.additional-paragraph p {
+  margin: 10px 0;
+}
+
 
 /* Quote Marks */
 .quote-mark {

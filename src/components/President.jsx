@@ -12,7 +12,7 @@ const President = () => {
   }, []);
 
   return (
-    <div className="container text-center my-5">
+    <div className="container text-center ">
     <h2 className="fw-bold section-title">PRESIDENT</h2>
     <div className="row justify-content-center">
       {/* First image */}

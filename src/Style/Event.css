@@ -23,7 +23,6 @@ h2::after {
   display: block;
   width: 60px;
   height: 4px;
-  background: #007bff;
   margin: 8px auto;
   border-radius: 2px;
 }
@@ -50,14 +49,19 @@ h2::after {
   padding: 15px;
   cursor: pointer;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  
+}
+.event{
+  width: 600px;
+  height: 500px;
+
 }
 
 
 /* Event Image */
 .event-card img {
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
+  width: 560px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
 }

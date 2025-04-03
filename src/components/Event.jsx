@@ -44,55 +44,62 @@ const UpcomingEvents = () => {
     ],
   };
 
-  return (
-    <div className="container upcoming-events">
-      <div className="row justify-content-center gy-5 ">
-        {/* Left Carousel */}
-        <div className="col-lg-5 col-md-6 col-sm-12 mb-5 mb-lg-0">
-          <h3 className="text-center event-titles">Current Events</h3>
-          <Slider {...settings}>
-            {eventPostersLeft.map((event) => (
-              <div 
-                key={event.id} 
-                className="event-card" 
-                onClick={() => handleEventClick(event.id)}
-              >
-                <img 
-                  src={event.image} 
-                  alt={event.alt} 
-                  className="event-image img-fluid" 
-                />
-                <p className="event-caption">{event.title}</p>
-              </div>
-            ))}
-          </Slider>
-        </div>
 
-        <div className="col-lg-2 d-none d-lg-block"></div>
-
-        {/* Right Carousel */}
-        <div className="col-lg-5 col-md-6 col-sm-12">
-          <h3 className="text-center event-titles">Upcoming Events</h3>
-          <Slider {...settings}>
-            {eventPostersRight.map((event) => (
-              <div 
-                key={event.id} 
-                className="event-card" 
-                onClick={() => handleEventClick(event.id)}
-              >
-                <img 
-                  src={event.image} 
-                  alt={event.alt} 
-                  className="event-image img-fluid" 
-                />
-                <p className="event-caption">{event.title}</p>
+    return (
+      <div className="upcoming-events">
+        <div> {/* Limiting width inside container-fluid */}
+          <div className="row justify-content-between">
+            {/* Left Event Carousel */}
+            <div className="col-lg-5 col-md-6 col-sm-12 mb-4">
+              <div className="event-box p-3">
+                <h3 className="text-center event-titles">Current Events</h3>
+                <Slider {...settings}>
+                  {eventPostersLeft.map((event) => (
+                    <div 
+                      key={event.id} 
+                      className="event-card" 
+                      onClick={() => handleEventClick(event.id)}
+                    >
+                      <img 
+                        src={event.image} 
+                        alt={event.alt} 
+                        className="event-image img-fluid" 
+                      />
+                      <p className="event-caption">{event.title}</p>
+                    </div>
+                  ))}
+                </Slider>
               </div>
-            ))}
-          </Slider>
+            </div>
+    
+            {/* Right Event Carousel */}
+            <div className="col-lg-5 col-md-6 col-sm-12 mb-4">
+              <div className="event-box p-3">
+                <h3 className="text-center event-titles">Upcoming Events</h3>
+                <Slider {...settings}>
+                  {eventPostersRight.map((event) => (
+                    <div 
+                      key={event.id} 
+                      className="event-card" 
+                      onClick={() => handleEventClick(event.id)}
+                    >
+                      <img 
+                        src={event.image} 
+                        alt={event.alt} 
+                        className="event-image img-fluid" 
+                      />
+                      <p className="event-caption">{event.title}</p>
+                    </div>
+                  ))}
+                </Slider>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+    
+
 };
 
 export default UpcomingEvents;

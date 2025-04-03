@@ -146,4 +146,7 @@
         flex-direction: column;
         align-items: center;
     }
+    .parish-container{
+        padding-top: 50px;
+    }
 }

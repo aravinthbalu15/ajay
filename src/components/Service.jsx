@@ -14,7 +14,7 @@ const Service = () => {
   };
 
   return (
-    <div className="service-container my-5">
+    <div className="service-container  ">
       <div className="row align-items-center my-5">
         {/* Profile Image */}
         <div className="col-md-4 text-center">
@@ -43,7 +43,7 @@ const Service = () => {
         {/* Personal Information */}
         <div className="col-md-8">
           <h2 className="service-history-heading">Fr. Anish</h2>
-          <p><strong>Priest ID:</strong> RCDK149</p>
+          {/* <p><strong>Priest ID:</strong> RCDK149</p> */}
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -62,7 +62,7 @@ const Service = () => {
         {/* Personal Information */}
         <div className="col-md-8">
           <h2 className="service-history-heading">Fr. Anish</h2>
-          <p><strong>Priest ID:</strong> RCDK149</p>
+          {/* <p><strong>Priest ID:</strong> RCDK149</p> */}
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -81,7 +81,7 @@ const Service = () => {
         {/* Personal Information */}
         <div className="col-md-8">
           <h2 className="service-history-heading">Fr. Anish</h2>
-          <p><strong>Priest ID:</strong> RCDK149</p>
+          {/* <p><strong>Priest ID:</strong> RCDK149</p> */}
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -100,7 +100,7 @@ const Service = () => {
         {/* Personal Information */}
         <div className="col-md-8">
           <h2 className="service-history-heading">Fr. Anish</h2>
-          <p><strong>Priest ID:</strong> RCDK149</p>
+          {/* <p><strong>Priest ID:</strong> RCDK149</p> */}
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>

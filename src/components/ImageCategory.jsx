@@ -41,7 +41,7 @@ const ImageCategory = () => {
   };
 
   return (
-    <Container className="gallery-container mt-5">
+    <Container className="gallery-container ">
       <h2 className="section-title mt-5">Image Categories</h2>
       <Row>
         {categories.map((category, index) => (

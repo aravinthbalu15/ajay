@@ -77,4 +77,7 @@
   .text-center img:last-child {
     margin: 0; /* Reset margins for small screens */
   }
+  .rect-img-HD3{
+    display: none;
+  }
 }

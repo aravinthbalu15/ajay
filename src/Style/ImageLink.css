@@ -49,7 +49,7 @@
   display: flex;
   gap: 1.5rem;
   width: max-content;
-  animation: scrollAnimation 12s linear infinite;
+  animation: scrollAnimation 45s linear infinite;
 }
 
 /* Individual Image */
@@ -137,9 +137,7 @@
     justify-content: center;
   }
 
-  .image-track {
-    animation: none; /* Disable auto-scroll on small screens */
-  }
+ 
 
   .image-item {
     width: 220px;
@@ -163,8 +161,10 @@
   }
 
   .image-track {
-    gap: 0.8rem;
-    animation: none; /* No auto-scroll on very small screens */
+    display: flex;
+    gap: 1.5rem;
+    width: max-content;
+    animation: scrollAnimation 15s linear infinite;
   }
 
   .image-item {

@@ -65,7 +65,7 @@ const Festival = () => {
   };
 
   return (
-    <Container className="festival-container mt-5">
+    <Container className="festival-container ">
       <h2 className="text-center event-title mt-5">🎉 2024 Event Highlights 🎊</h2>
 
       <Row className="g-4 mt-4">

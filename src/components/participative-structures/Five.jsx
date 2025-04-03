@@ -4,7 +4,7 @@ import Image1 from "../../images/christmas/1.png"; // Replace with correct path
 
 const Five = () => {
   return (
-    <div className="pt-5">
+    <div className="pt-5 mt-5">
       <h1 className="section-title mt-5">நிறைவு அமைப்புகள்</h1>
 
       {/* Container 1 */}

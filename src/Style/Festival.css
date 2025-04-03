@@ -1,6 +1,7 @@
 .festival-container {
     max-width: 1400px;
     padding: 2rem;
+    padding-top: 150px;
     
   }
   
@@ -119,7 +120,9 @@
       right: 10px;
       padding: 8px;
     }
-  
+  .festival-container{
+    margin-top: -50px;
+  }
     .control-btn {
       width: 35px;
       height: 35px;

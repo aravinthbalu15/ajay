@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "../Style/Background.css";
-import Image1 from "../images/image1.png";
+import Image4 from "../images/image1.png";
 import Image2 from "../images/image2.png";
 import Image3 from "../images/image3.png";
-import Image4 from "../images/image4.png";
+import Image1 from "../images/image4.png";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const images = [Image1, Image2, Image3, Image4];
@@ -54,12 +54,15 @@ const BackgroundSlider = () => {
 
               {/* Render first paragraph */}
               <div>
-                <p className="hello">{paragraphs[i][0]}</p>
+              <h1 className="verse-text">{paragraphs[i][0]}</h1>
+
               </div>
               
             </div>
           ))}
+          
         </div>
+        
 
         <button className="arrow left-arrow" onClick={prevSlide}>
           <FaArrowLeft />

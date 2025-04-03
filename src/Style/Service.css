@@ -4,8 +4,8 @@
 /* Global Styling */
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to right, #f8f9fa, #e3f2fd);
-  color: #333;
+  /* background: linear-gradient(to right, #e3f2fd, #e3f2fd);
+  color: #333; */
 }
 
 /* Container Styling */
@@ -13,9 +13,11 @@ body {
   max-width: 1100px;
   padding: 80px 30px;
   margin: auto;
+  margin-top: 80px;
+
   /* background: #fff; */
   border-radius: 12px;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); */
   animation: fadeIn 0.8s ease-in-out;
  padding-top: 100px;
 }
@@ -23,17 +25,17 @@ body {
 /* Profile Image Styling */
 .profile-image {
   width: 300px;
-  height: 350px;
-  border-radius: 5px;
+  height: 360px;
+  border-radius: 5%;
   object-fit: cover;
-  border: 2px solid #080808;
+  
   box-shadow: 0px 8px 20px rgba(19, 4, 4, 0.5);
   transition: transform 0.3s ease-in-out;
 }
 
-.profile-image:hover {
+/* .profile-image:hover {padding-top: 50px;
   transform: scale(1.1);
-}
+} */
 
 /* Heading Styling */
 .service-history-heading {
@@ -61,9 +63,9 @@ body {
   transition: width 0.4s ease-in-out;
 }
 
-.service-history-heading:hover::after {
+/* .service-history-heading:hover::after {
   width: 140px;
-}
+} */
 
 /* Information Styling */
 .service-container p {

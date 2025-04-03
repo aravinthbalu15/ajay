@@ -78,7 +78,7 @@ const Nav = () => {
                 <li><Link className="dropdown-item4" to="/three"  onClick={closeMenu}>சேவை அமைப்புகள்</Link></li>
                 <li><Link className="dropdown-item4" to="/four" onClick={closeMenu}>பொது அமைப்புகள்</Link></li>
                 <li><Link className="dropdown-item4" to="/five" onClick={closeMenu}>நிறைவு அமைப்புகள்</Link></li>
-                <li><Link className="dropdown-item4" to="/anbiyangal" onClick={closeMenu}>Anbiyangal</Link></li>
+                <li><Link className="dropdown-item4" to="/anbiyangal" onClick={closeMenu}>அன்பியங்கள்</Link></li>
 
               </ul>
             </li>

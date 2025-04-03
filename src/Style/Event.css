@@ -129,7 +129,7 @@ h2::after {
 /* Small Mobile Devices (Max 576px) */
 @media (max-width: 576px) {
   .event-card img {
-    max-width: 100%;
+    width: 260px;
   }
 
   h2 {

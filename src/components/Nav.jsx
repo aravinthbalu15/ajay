@@ -39,11 +39,14 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className={`navbar1 ${scrolling ? "scrolled" : "transparent"}`}>
+ <nav className={`navbar1 ${scrolling ? "scrolled" : "transparent"}`}>
       <div className="container-fluid">
-        <Link className="navbar1-brand" to="/" onClick={closeMenu}>
-          <img src={Logo} alt="Logo" className="logo1" />
-          <h1>St Joseph Church</h1>
+      <Link className="navbar1-brand" to="/" onClick={closeMenu}>
+  <img src={Logo} alt="Logo" className="logo1" />
+  <h1>
+    St Joseph Church
+    <span className="newline">Kamplar</span>
+  </h1>
         </Link>
         <button className="navbar1-toggler" type="button" onClick={toggleNavbar}>
           <FontAwesomeIcon icon={navbarOpen ? faTimes : faBars} size="2x" />
@@ -55,9 +58,11 @@ const Nav = () => {
               <ul className={`dropdown-menu3 ${dropdownOpen === "home" ? "show" : ""}`}>
               <li><Link className="dropdown-item4" to="/" onClick={closeMenu}>Home</Link></li>
 
-                <li><Link className="dropdown-item4" to="/ourparish" onClick={closeMenu}>About us</Link></li>
-                <li><Link className="dropdown-item4" to="/anbiyangal" onClick={closeMenu}>History</Link></li>
-                <li><Link className="dropdown-item4" to="/service" onClick={closeMenu}>Our people at Service</Link></li>
+                <li><Link className="dropdown-item4" to="/about" onClick={closeMenu}>About us</Link></li>
+                <li><Link className="dropdown-item4" to="/history-details" onClick={closeMenu}>History</Link></li>
+                <li><Link className="dropdown-item4" to="/old-priest" onClick={closeMenu}>Old Priest</Link></li>
+                <li><Link className="dropdown-item4" to="/service" onClick={closeMenu}>Our people at God's Service</Link></li>
+
               </ul>
             </li>
             

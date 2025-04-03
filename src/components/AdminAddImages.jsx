@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button, Container, Card, Alert } from "react-bootstrap";
+import "../Style/AdminAddImages.css"
 
 const AdminAddProducts = () => {
   const [productName, setProductName] = useState("");
@@ -33,24 +34,24 @@ const AdminAddProducts = () => {
   };
 
   return (
-    <Container className="mt-5">
+    <Container className="admin-container">
       <Card className="shadow-lg p-4" style={{ maxWidth: "600px", margin: "auto" }}>
-        <h2 className="text-center mb-4">Add Product</h2>
+        <h2 className="text-center mb-4">Add Images</h2>
         {message && <Alert variant="info">{message}</Alert>}
         
         <Form onSubmit={handleSubmit}>
-          <Form.Group controlId="productName">
-            <Form.Label>Product Name</Form.Label>
+          <Form.Group controlId="productName ">
+            <Form.Label>Image Name</Form.Label>
             <Form.Control
               type="text"
-              placeholder="Enter product name"
+              placeholder="Enter Image name"
               value={productName}
               onChange={(e) => setProductName(e.target.value)}
               required
             />
           </Form.Group>
 
-          <Form.Group controlId="price" className="mt-3">
+          {/* <Form.Group controlId="price" className="mt-3">
             <Form.Label>Price ($)</Form.Label>
             <Form.Control
               type="number"
@@ -59,14 +60,14 @@ const AdminAddProducts = () => {
               onChange={(e) => setPrice(e.target.value)}
               required
             />
-          </Form.Group>
+          </Form.Group> */}
 
           <Form.Group controlId="description" className="mt-3">
             <Form.Label>Description</Form.Label>
             <Form.Control
               as="textarea"
               rows={3}
-              placeholder="Enter product description"
+              placeholder="Enter Image description"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
               required
@@ -81,10 +82,18 @@ const AdminAddProducts = () => {
               required
             >
               <option value="">Select Category</option>
-              <option value="Electronics">Electronics</option>
-              <option value="Clothing">Clothing</option>
-              <option value="Accessories">Accessories</option>
-              <option value="Books">Books</option>
+              <option value="Electronics">Janurary</option>
+              <option value="Clothing">February</option>
+              <option value="Accessories">March</option>
+              <option value="Books">April</option>
+              <option value="may">May</option>
+              <option value="june">June</option>
+              <option value="july">July</option>
+              <option value="august">August</option>
+              <option value="september">September</option>
+              <option value="october">October</option>
+              <option value="november">November</option>
+              <option value="december">December</option>
             </Form.Select>
           </Form.Group>
 

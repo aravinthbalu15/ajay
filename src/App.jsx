@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 import ImageCategory from "./components/ImageCategory";
 import Videos from "./components/Videos";
 import AdminLogin from "./components/AdminLogin";
-import AdminAddProducts from "./components/AdminAddProducts";
+import AdminAddImages from "./components/AdminAddImages";
 import Feb from "./components/All-images/Feb";
 import March from "./components/All-images/March";
 import April from "./components/All-images/April";
@@ -44,7 +44,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/admin-product" element={<AdminAddProducts />} />
+        <Route path="/admin-product" element={<AdminAddImages />} />
         <Route path="/admin" element={<AdminLogin />} />
         <Route path="/ourparish" element={<OurParish />} />
         <Route path="/anbiyangal" element={<Anbiyangal />} />

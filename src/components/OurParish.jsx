@@ -78,7 +78,7 @@ const OurParish = () => {
       </div> 
 
       {/* Council Members */}
-      <div className="parish-container">
+      <div className="parish-container mb-5">
         <h2 className="parish-title">Parish Council Members</h2>
         
         <div className="parish-council-list">

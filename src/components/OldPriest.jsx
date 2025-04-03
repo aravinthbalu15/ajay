@@ -28,6 +28,7 @@ const OldPriest = () => {
     <div className="our-parish-containers mt-5"><br /><br />
       {/* First View Box - Old Priests */}
       <h2 className="section-title mt-5">Our Former Parish Priests</h2>
+     
       <div className="members-list mt-5">
         {oldPriests.map((member) => (
           <div key={member.id} className="member-row">
@@ -48,7 +49,9 @@ const OldPriest = () => {
             <p className="member-info"><strong></strong> {member.dob}</p>
           </div>
         ))}
-      </div> <br /><br />
+      </div>
+   
+       <br /><br />
     </div>
   );
 };

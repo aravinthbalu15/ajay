@@ -1,50 +1,47 @@
-/* Container Styling */
+/* General Container Styling */
 .our-parish-container {
   text-align: center;
   padding: 70px 20px;
   max-width: 1200px;
   margin: auto;
-  margin-top: -80px;
-  /* margin-top:-10%; */
-}
-.our-parish-container{
   background-color: rgb(245, 243, 243);
+  padding-top: 140px;
 }
 
-
+/* Title Styling */
 h2 {
   font-size: 28px;
   margin-bottom: 40px;
 }
 
 /* Members Grid */
-.members-list {
+.members-listt {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  justify-content: center;
+  justify-content:center;
   max-width: 800px;
-  margin: 0 auto;
-  position: relative;
+ 
 }
 
-/* Members Grid */
+/* Council Members Grid */
 .members-list1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;  /* Reduced gap from 40px to 20px for tighter alignment */
   justify-content: center;
-  max-width: 800px;
+  align-items: center;
+  max-width: 1000px; /* Increased width to allow more space */
   margin: 0 auto;
-  position: relative;
-  margin-left: 27%;
+  padding: 0 10px; /* Reduced side padding */
 }
 
+/* Member Card */
 .member-row {
   background: #f8f9fa;
-  padding: 15px;
+ 
   border-radius: 10px;
-  text-align: center;
+ 
   transition: transform 0.3s ease, background 0.3s ease;
   cursor: pointer;
   position: relative;
@@ -59,6 +56,7 @@ h2 {
   background: #e2e6ea;
 }
 
+/* Member Image */
 .member-image {
   width: 100px;
   height: 100px;
@@ -112,9 +110,7 @@ h2 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  z-index: 10; /* Ensure it's above other elements */
 }
-
 
 .close-bt:hover {
   background: darkred;
@@ -122,30 +118,21 @@ h2 {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-  .members-list {
+  .members-listt {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 768px) {
-  .members-list {
+  .members-listt, .members-list1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
   }
-  @media (max-width: 768px) {
-    .members-list1 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      margin-left:-2%;
-    }
+
   .member-row {
-    width: 100%;
-    max-width: 90%;
-    margin: 0 auto;
+    width: 90%;
+    max-width: 300px;
   }
-}
 }

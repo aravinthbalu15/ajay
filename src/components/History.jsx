@@ -7,7 +7,7 @@ const History = () => {
   const navigate = useNavigate();
 
   const handleViewMore = () => {
-    navigate("/history");
+    navigate("/history-details");
   };
 
   return (
@@ -24,17 +24,10 @@ const History = () => {
           <h2 className="history-heading">A Journey of Faith: Our Church’s Legacy</h2>
 
           <p className="history-text">
-            Our church has stood as a beacon of faith for generations, witnessing the passage of time and nurturing a community built on devotion and unity. 
-            Founded in the early years, it has been a place of worship, solace, and spiritual growth for many. Over the decades, it has grown in stature, 
-            welcoming thousands of worshippers and evolving to meet the needs of the faithful. 
-            <br />
-            <br />
-            With its rich architectural heritage and deep-rooted traditions, the church continues to inspire and guide. From humble beginnings to 
-            becoming a cornerstone of the community, its journey has been one of unwavering faith and service.
-          </p>
-
-          {/* View More Link */}
-          <p className="view-more" onClick={handleViewMore}>View More →</p>
+          Kamplar has a long history of adherence to Christian faith, mercifully led by God through waves of dramatic events, led by great parish priests and committed Catholic persons.
+          The stone-cut Cross which has been venerated at Devandivilai, at the heart of Kamplar parish, whose style is ascribed to the times of St. Thomas the Apostle, is a certain witness to show that Christianity had gained foothold at Kamplar...
+          {/* View More Link */}<br/>
+          <p className="view-more" onClick={handleViewMore}>View More →</p> </p>
         </div>
       </div>
     </div>

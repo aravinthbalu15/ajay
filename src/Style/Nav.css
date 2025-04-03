@@ -164,7 +164,12 @@
 .navbar1-toggler.opened .navbar1-toggler-icon::after {
   transform: rotate(-45deg);
 }
-
+.newline {
+  font-family: 'Times New Roman', Times, serif;
+  display: block; /* Moves "Kamplar" to the next line */
+  text-align: center; /* Optional: Centers the text */
+  font-size: 2rem; /* Adjust as needed */
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .navbar1-toggler {

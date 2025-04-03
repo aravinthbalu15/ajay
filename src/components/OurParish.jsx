@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import "../Style/OurParish.css"; // Ensure this CSS file exists
 
 // Importing images correctly
-import Image1 from "../images/aju.webp";
-import Image2 from "../images/image2.png";
-import Image3 from "../images/image3.png";
+import Image1 from "../images/aju.jpeg";
+import Image2 from "../images/appu.jpeg";
+import Image3 from "../images/ashik.jpeg";
+import Image4 from "../images/rani.jpeg";
+import Image5 from "../images/jenish.jpeg";
+
 
 //importring images for counsil members
 import Sajitha from "../images/council/sajitha.png"
@@ -15,18 +18,18 @@ import Gladis from "../images/council/gladislily.png"
 import Jerin from "../images/council/jerin.png"
 
 const members = [
-  { id: 1, name: "Priest (President)", dob: "Jan 1, 1980", original: "Fr. Maria William", img: Image1 },
-  { id: 2, name: "Vice-President", dob: "Feb 15, 1985", original: "Mr. Richard Joseph Raj", img: Image2 },
-  { id: 3, name: "Secretary", dob: "Mar 22, 1990", original: "Mrs. Jacqulin", img: Image3 },
+  { id: 1, name: "Priest (President)", dob: "Jan 1, 1980", original: "Fr. Maria William", img: Image1,p:"this is the description for the image" },
 ];
 
 const member1 = [
-  { id: 1, name: "Treasurer", dob: "Jan 1, 1980", original: "Mrs. Charlet Rani", img: Image1 },
-  { id: 2, name: "Co-Secretary", dob: "Feb 15, 1985", original: "Mr. Jenish", img: Image2 },
+  { id: 2, name: "Vice-President", dob: "Feb 15, 1985", original: "Mr. Richard Joseph Raj", img: Image2,p:"this is the description for the image" },
+  { id: 3, name: "Secretary", dob: "Mar 22, 1990", original: "Mrs. Jacqulin", img: Image3,p:"this is the description for the image" },
+  { id: 1, name: "Treasurer", dob: "Jan 1, 1980", original: "Mrs. Charlet Rani", img: Image4,p:"this is the description for the image" },
+  { id: 2, name: "Co-Secretary", dob: "Feb 15, 1985", original: "Mr. Jenish", img: Image5,p:"this is the description for the image" },
 ];
 
 const counsil = [
-  { id: 1, name: "SAJITHA", dob: "Jan 1, 1980", original:"SAJITHA",img: Sajitha,p:"இளைஞர் இயக்கம்(பெண்கள்)" },
+  {  },
   { id: 2, name: "SHAJI", dob: "Feb 15, 1985",original:"SHAJI", img: Shaji,p:"அன்பியம்-01" },
   { id: 2, name: "JENIBA", dob: "July 09, 1995",original:"JENIBA", img: Jeniba,p:"கத்தோலிக்க சேவா சங்கம்" },
   { id: 2, name: "ASHWIN A", dob: "July 21, 1995",original:"ASHWIN A", img: Ashwin,p:"அன்பியம்-06" },
@@ -54,13 +57,14 @@ const OurParish = () => {
     <div>
       {/* First Section - Parish Members */}
       <div className="our-parish-container mt-5">
-        <h2 className="mt-5">Meet Our Parish Members</h2>
+        <h2 className="mt-5">Meet Our Parish Council</h2>
         
         <div className="members-list mt-5">
           {members.map((member) => (
             <div key={member.id} className="member-row" onClick={() => setSelectedMember(member)}>
               <img src={member.img} alt={member.name} className="member-image" />
               <h3 className="member-name">{member.name}</h3>
+              <p>{member.p}</p>
             </div>
           ))}
         </div> 
@@ -71,6 +75,7 @@ const OurParish = () => {
             <div key={member1.id} className="member-row" onClick={() => setSelectedMember(member1)}>
               <img src={member1.img} alt={member1.name} className="member-image" />
               <h3 className="member-name">{member1.name}</h3>
+              <p>{member1.p}</p>
             </div>
           ))}
         </div>
@@ -90,9 +95,9 @@ const OurParish = () => {
 
       {/* Council Members */}
       <div className="our-parish-container mb-5">
-        <h2 className="mt-5">Meet Our Parish Council Members</h2>
+        <h2 className="mt-5">Parish Council Members</h2>
         
-        <div className="container-fluid members-list mt-5">
+       <div className="container members-listt mt-5">  {/* changed the classname */}
           {counsil.map((councilMember) => (
             <div key={councilMember.id} className="member-row" onClick={() => setSelectedMember(councilMember)}>
               <img src={councilMember.img} alt={councilMember.name} className="member-image" />

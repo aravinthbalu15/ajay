@@ -36,7 +36,23 @@ import HistoryDetails from "./components/HistoryDetails";
 import About from "./components/About";
 import OldPriest from "./components/OldPriest";
 import AnbiyamCoordination from "./components/AnbiyamCoordination";
-
+import TKOne from "./components/participative-structures/tk/TKOne";
+import TKTwo from "./components/participative-structures/tk/TKTwo";
+import TKThree from "./components/participative-structures/tk/Three";
+import OAOne from "./components/participative-structures/oa/Eight";
+import OATwo from "./components/participative-structures/oa/OATwo";
+import OAThree from "./components/participative-structures/oa/OAThree";
+import OAFour from "./components/participative-structures/oa/OAFour";
+import OAFive from "./components/participative-structures/oa/OAFive";
+import OASix from "./components/participative-structures/oa/OASix";
+import OASeven from "./components/participative-structures/oa/OASeven";
+import SAOne from "./components/participative-structures/sa/SAOne";
+import SATwo from "./components/participative-structures/sa/SATwo";
+import SAThree from "./components/participative-structures/sa/SAThree";
+import SAFour from "./components/participative-structures/sa/SAFour";
+import VAOne from "./components/participative-structures/va/VAOne";
+import VATwo from "./components/participative-structures/va/VATwo";
+import VAThree from "./components/participative-structures/va/VAThree";
 
 function App() {
   const location = useLocation();
@@ -82,6 +98,33 @@ function App() {
         <Route path="/about" element={<About />}/>
         <Route path="/old-priest" element={<OldPriest />}/>
         <Route path="/anbiyam-co" element={<AnbiyamCoordination />}/>
+
+        {/* திருத்தூதர்கள் சங்கங்கள் */}
+        <Route path="/மரியாவின் சேனை" element={<TKOne />}/>
+        <Route path="/வின்சென்ட் தெ பால் சங்கம்" element={<TKTwo />}/>
+        <Route path="/கத்தோலிக்க சேவா சங்கம்" element={<TKThree/>}/>
+
+        {/* உருவாக்க அமைப்புகள் */}
+        <Route path="/பாலர் சபை" element={<OAOne />}/>
+        <Route path="/சிறார் இயக்கம்" element={<OATwo />}/>
+        <Route path="/இளம் கிறித்தவ மாணாக்கர் இயக்கம்" element={<OAThree/>}/>
+        <Route path="/இளையோர் இயக்கம் ( ஆண்கள்) " element={<OAFour/>}/>
+        <Route path="/இளையோர் இயக்கம் ( பெண்கள்)" element={<OAFive/>}/>
+        <Route path="/பெண்கள் இயக்கம்" element={<OASix/>}/>
+        <Route path="/விவிலியப் பணிக்குழு" element={<OASeven/>}/>
+
+        {/* சேவை அமைப்புகள்  */}
+        <Route path="/பெண்கள் கிராம முன்னேற்றச் சங்கம்" element={<SAOne />}/>
+         <Route path="/கோல்பிங்  இயக்கம்" element={<SATwo/>}/>
+          <Route path="/கைகள் தன்னம் பிக்கை இயக்கம்" element={< SAThree/>}/>
+            <Route path="/அடித்தள முழுவளர்ச்சி சங்கம்" element={<SAFour />}/>
+
+
+              <Route path="/வழிபாட்டுக் குழு" element={< VAOne/>}/>
+                <Route path="/பாடகர் குழு" element={< VATwo/>}/>
+                  <Route path="/பீடச்சிறார்" element={< VAThree/>}/>
+
+
 
       </Routes>
       <Footer />

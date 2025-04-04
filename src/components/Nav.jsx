@@ -10,6 +10,7 @@ const Nav = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(null);
   const location = useLocation();
+  
 
   useEffect(() => {
     if (location.pathname === "/") {
@@ -44,7 +45,7 @@ const Nav = () => {
       <Link className="navbar1-brand" to="/" onClick={closeMenu}>
   <img src={Logo} alt="Logo" className="logo1" />
   <h1>
-    St Joseph Church
+    St Joseph's Church
     <span className="newline">Kamplar</span>
   </h1>
         </Link>
@@ -59,30 +60,110 @@ const Nav = () => {
               <li><Link className="dropdown-item4" to="/" onClick={closeMenu}>Home</Link></li>
 
                 <li><Link className="dropdown-item4" to="/about" onClick={closeMenu}>About us</Link></li>
-                <li><Link className="dropdown-item4" to="/history-details" onClick={closeMenu}>History</Link></li>
-                <li><Link className="dropdown-item4" to="/old-priest" onClick={closeMenu}>Old Priest</Link></li>
-                <li><Link className="dropdown-item4" to="/service" onClick={closeMenu}>Our people at God's Service</Link></li>
+                <li><Link className="dropdown-item4" to="/history-details" onClick={closeMenu}>Our History</Link></li>
+                <li><Link className="dropdown-item4" to="/about" onClick={closeMenu}>Sacred Heart Convent</Link></li>
+                <li><Link className="dropdown-item4" to="/about" onClick={closeMenu}>St.Joseph's Auditorium</Link></li>
+
+                <li><Link className="dropdown-item4" to="/old-priest" onClick={closeMenu}>Our Parish Priests</Link></li>
+                <li><Link className="dropdown-item4" to="/service" onClick={closeMenu}>Our People at God's Service</Link></li>
+                <li><Link className="dropdown-item4" to="/about" onClick={closeMenu}>The Substation</Link></li>
 
               </ul>
             </li>
+
+            {/* Administration */}
             
-            <li className="nav-item">
-              <Link className="nav-link2" to="/ourparish" onClick={closeMenu}>Administration</Link>
-            </li>
             <li className="nav-item dropdown">
-              <button className={`nav-link2 dropdown-toggle ${dropdownOpen === "home" ? "open" : ""}`} onClick={() => toggleDropdown("home")}>Participate Structures</button>
-              <ul className={`dropdown-menu3 ${dropdownOpen === "home" ? "show" : ""}`}>
-              <li><Link className="dropdown-item4" to="/one" onClick={closeMenu}>திருத்தூதர்கள் சங்கங்க</Link></li>
+              <button className={`nav-link2 dropdown-toggle ${dropdownOpen === "admin" ? "open" : ""}`} onClick={() => toggleDropdown("admin")}>Administration</button>
+              <ul className={`dropdown-menu3 ${dropdownOpen === "admin" ? "show" : ""}`}>
+              <li><Link className="dropdown-item4" to="/ourparish" onClick={closeMenu}>Our Parish Pastoral Council</Link></li>
 
-                <li><Link className="dropdown-item4" to="/two" onClick={closeMenu}>உருவாக்க இயக்கங்கள்</Link></li>
-                <li><Link className="dropdown-item4" to="/three"  onClick={closeMenu}>சேவை அமைப்புகள்</Link></li>
-                <li><Link className="dropdown-item4" to="/four" onClick={closeMenu}>பொது அமைப்புகள்</Link></li>
-                <li><Link className="dropdown-item4" to="/five" onClick={closeMenu}>நிறைவு அமைப்புகள்</Link></li>
-                <li><Link className="dropdown-item4" to="/anbiyangal" onClick={closeMenu}>அன்பியங்கள்</Link></li>
-
+                <li><Link className="dropdown-item4" to="/anbiyam-co" onClick={closeMenu}>Coordination of anbiyams</Link></li>
+                <li><Link className="dropdown-item4" to="/anbiyam" onClick={closeMenu}>Anbiyams</Link></li>
+                
               </ul>
             </li>
 
+            {/* Participatary */}
+
+            <li className="nav-item dropdown">
+              <button className={`nav-link2 dropdown-toggle ${dropdownOpen === "home" ? "open" : ""}`} onClick={() => toggleDropdown("pt-sr")}>Participatary Structures</button>
+              <ul className={`dropdown-menu3 ${dropdownOpen === "pt-sr" ? "show" : ""}`}>
+                {/* திருத்தூதுக் கழகங்கள்*/}
+                <li className="nav-item dropdown35">
+                      <button
+                        className={`nav-link2 dropdown-toggle ${dropdownOpen === "p1" ? "open" : ""}`}
+                        onClick={() => toggleDropdown("p1")}
+                      >
+                        திருத்தூதுக் கழகங்கள்
+                      </button>
+                      <ul className={`dropdown-menu33 ${dropdownOpen === "p1" ? "show" : ""}`}>
+                        <li>
+                          <Link className="dropdown-item4" to="/two" onClick={closeMenu}>
+                            மரியாயின் சேனை
+                          </Link>
+                        </li>
+                        <li>
+                          <Link className="dropdown-item4" to="/two" onClick={closeMenu}>
+                            கத்தோலிக்க சேவா சங்கம்
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+              {/* உருவாக்க அமைப்புகள் */}
+
+                    <li className="nav-item dropdown35">
+                      <button
+                        className={`nav-link2 dropdown-toggle ${dropdownOpen === "p2" ? "open" : ""}`}
+                        onClick={() => toggleDropdown("p2")}
+                      >
+                       உருவாக்க அமைப்புகள்
+                      </button>
+                      <ul className={`dropdown-menu33 ${dropdownOpen === "p2" ? "show" : ""}`}>
+                        <li>
+                          <Link className="dropdown-item4" to="/two" onClick={closeMenu}>
+                          பாலர் சபை
+                          </Link>
+                        </li>
+                        <li>
+                          <Link className="dropdown-item4" to="/two" onClick={closeMenu}>
+                          சிறார் இயக்கம்
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+
+                     {/* உருவாக்க அமைப்புகள் */}
+
+                    <li className="nav-item dropdown35">
+                      <button
+                        className={`nav-link2 dropdown-toggle ${dropdownOpen === "p2" ? "open" : ""}`}
+                        onClick={() => toggleDropdown("p2")}
+                      >
+                       உருவாக்க அமைப்புகள்
+                      </button>
+                      <ul className={`dropdown-menu33 ${dropdownOpen === "p2" ? "show" : ""}`}>
+                        <li>
+                          <Link className="dropdown-item4" to="/two" onClick={closeMenu}>
+                          பாலர் சபை
+                          </Link>
+                        </li>
+                        <li>
+                          <Link className="dropdown-item4" to="/two" onClick={closeMenu}>
+                          சிறார் இயக்கம்
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+
+                  
+                   
+              
+              </ul>
+            </li>
+
+
+          {/* images */}
 
             <li className="nav-item dropdown">
               <button className={`nav-link2 dropdown-toggle ${dropdownOpen === "gallery" ? "open" : ""}`} onClick={() => toggleDropdown("gallery")}>Gallery</button>

@@ -3,8 +3,10 @@ import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Style/Service.css";
 import Image1 from "../images/service/1.png";
+import Image2 from "../images/service/2.png";
 import Image3 from "../images/service/3.png";
 import Image4 from "../images/service/4.png";
+import Image5 from "../images/service/5.png";
 
 const Service = () => {
   const navigate = useNavigate();
@@ -37,7 +39,7 @@ const Service = () => {
       <div className="row align-items-center my-5">
         {/* Profile Image */}
         <div className="col-md-4 text-center">
-          <img src={Image1} alt="Profile" className="img-fluid profile-image" />
+          <img src={Image2} alt="Profile" className="img-fluid profile-image" />
         </div>
 
         {/* Personal Information */}
@@ -94,7 +96,7 @@ const Service = () => {
       <div className="row align-items-center my-5">
         {/* Profile Image */}
         <div className="col-md-4 text-center">
-          <img src={Image1} alt="Profile" className="img-fluid profile-image" />
+          <img src={Image5} alt="Profile" className="img-fluid profile-image" />
         </div>
 
         {/* Personal Information */}

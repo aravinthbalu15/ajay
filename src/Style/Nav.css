@@ -11,6 +11,20 @@
   justify-content: space-between;
   align-items: center;
 }
+.dropdown-menu33 {
+  display: none;
+  position: absolute;
+  background: rgba(30, 30, 47, 0.95);
+  border-radius: 8px;
+  list-style: none;
+  transition: all 0.3s ease;
+  padding: 10px;
+ 
+}
+
+.dropdown-menu33.show {
+  display: block;
+}
 
 .container-fluid {
   width: 100%;
@@ -90,8 +104,9 @@
   visibility: hidden;
   transition: all 0.3s ease;
   /* min-width: 200px; */
-  height: auto;
+  height: 400px;
   width: 300px;
+  z-index: 1000;
   /* padding:10px; */
 }
 
@@ -106,6 +121,7 @@
   text-decoration: none;
   font-size: 15px;
   width: 150px;
+ 
  
  
 }
@@ -226,6 +242,7 @@
   margin-top: 2px;
   padding: 20px;
 }
+
 /* Updated Responsive CSS */
 @media (max-width: 768px) {
   .navbar1 {
@@ -313,3 +330,10 @@
 .nav-item button{
   margin-top: -50px;
 }
+
+
+
+
+
+
+

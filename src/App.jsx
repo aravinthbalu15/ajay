@@ -35,6 +35,7 @@ import Service from "./components/Service";
 import HistoryDetails from "./components/HistoryDetails";
 import About from "./components/About";
 import OldPriest from "./components/OldPriest";
+import AnbiyamCoordination from "./components/AnbiyamCoordination";
 
 
 function App() {
@@ -52,7 +53,7 @@ function App() {
         <Route path="/admin-product" element={<AdminAddImages />} />
         <Route path="/admin" element={<AdminLogin />} />
         <Route path="/ourparish" element={<OurParish />} />
-        <Route path="/anbiyangal" element={<Anbiyangal />} />
+        <Route path="/anbiyam" element={<Anbiyangal />} />
         <Route path="/special-gallery" element={<SpecialGallery />} />
         <Route path="/videos" element={<Videos />} />
         <Route path="/contact" element={<Contact />} />
@@ -80,6 +81,7 @@ function App() {
         <Route path="/history-details" element={<HistoryDetails />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/old-priest" element={<OldPriest />}/>
+        <Route path="/anbiyam-co" element={<AnbiyamCoordination />}/>
 
       </Routes>
       <Footer />

@@ -53,6 +53,7 @@ import SAFour from "./components/participative-structures/sa/SAFour";
 import VAOne from "./components/participative-structures/va/VAOne";
 import VATwo from "./components/participative-structures/va/VATwo";
 import VAThree from "./components/participative-structures/va/VAThree";
+import HeartConvent from "./components/HeartConvent";
 
 function App() {
   const location = useLocation();
@@ -66,6 +67,8 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
+        {/* Home */}
+        <Route path="/heart-convent" element={<HeartConvent />} />
         <Route path="/admin-product" element={<AdminAddImages />} />
         <Route path="/admin" element={<AdminLogin />} />
         <Route path="/ourparish" element={<OurParish />} />

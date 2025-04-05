@@ -270,6 +270,12 @@
 
 /* Responsive Design - Consolidated */
 @media (max-width: 768px) {
+
+    .menu-item:hover > .dropdown {
+      display: block;
+    }
+  
+  
   .navbar1-collapse {
     display: none;
     width: 100%;
@@ -370,14 +376,7 @@
 }
 
 @media (max-width: 480px) {
-  @media (max-width: 480px) {
-    .dropdown-menu3,
-    .dropdown-menu-sub {
-      width: 100%;
-      max-width: 100%;
-      box-sizing: border-box;
-      overflow-x: auto;
-    }
+
   
     .dropdown-item4,
     .dropdown-link55 {
@@ -391,7 +390,7 @@
       font-size: 24px;
       padding: 10px;
     }
-  }
+  
 
   
   .navbar1-brand h1 {
@@ -411,12 +410,14 @@
     font-size: 1rem;
   }
 
-  .dropdown-item4 {
-    font-size: 0.95rem;
-  }
+  .dropdown-item4{
+    font-size: 0.85rem;
+    
+   }
 
   .dropdown-link55 {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
+  
   }
 }
 
@@ -450,8 +451,13 @@
     box-sizing: border-box;
     overflow-x: auto;
   }
-
-  .dropdown-item4,
+  .dropdown-item4{
+    font-size: 0.85rem;
+    padding: 6px 10px;
+    white-space: normal;
+    word-wrap: break-word;
+    width: 380px;
+   }
   .dropdown-link55 {
     font-size: 0.85rem;
     padding: 6px 10px;

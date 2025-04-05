@@ -122,8 +122,8 @@ const Nav = () => {
             ])}
 
             {renderDropdown("Gallery", "gallery", [
-              <li><Link className="dropdown-item4" to="/images-category" onClick={closeMenu}>Images</Link></li>,
-              <li><Link className="dropdown-item4" to="/videos" onClick={closeMenu}>Videos</Link></li>
+              <li><Link className="dropdown-item4 " to="/images-category" onClick={closeMenu}>Images</Link></li>,
+              <li><Link className="dropdown-item4 " to="/videos" onClick={closeMenu}>Videos</Link></li>
             ])}
 
             <li className="nav-item">

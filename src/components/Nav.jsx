@@ -40,7 +40,9 @@ const Nav = () => {
 
   useEffect(() => {
     const handleClickOutside = (e) => {
-      if (!e.target.closest(".dropdown")) closeAllDropdowns();
+      if (!e.target.closest(".dropdown") && !e.target.closest(".dropdown-sub")) {
+        closeAllDropdowns();
+      }
     };
     document.addEventListener("click", handleClickOutside);
     return () => document.removeEventListener("click", handleClickOutside);
@@ -48,16 +50,24 @@ const Nav = () => {
 
   const renderDropdown = (label, key, items) => (
     <li className="nav-item dropdown">
-      <button className={`nav-link2 dropdown-toggle ${openDropdowns[key] ? "open" : ""}`} onClick={() => toggleDropdown(key)}>{label}</button>
+      <button
+        className={`nav-link2 dropdown-toggle ${openDropdowns[key] ? "open" : ""}`}
+        onClick={() => toggleDropdown(key)}
+      >
+        {label}
+      </button>
       <ul className={`dropdown-menu3 ${openDropdowns[key] ? "show" : ""}`}>{items}</ul>
     </li>
   );
 
-  
-
   const renderSubDropdown = (label, key, items) => (
     <li className="dropdown-sub">
-      <button className={`dropdown-link55 ${openDropdowns[key] ? "open" : ""}`} onClick={() => toggleDropdown(key)}>{label}</button>
+      <button
+        className={`dropdown-link55 ${openDropdowns[key] ? "open" : ""}`}
+        onClick={() => toggleDropdown(key)}
+      >
+        {label}
+      </button>
       <ul className={`dropdown-menu-sub ${openDropdowns[key] ? "show" : ""}`}>{items}</ul>
     </li>
   );
@@ -67,7 +77,9 @@ const Nav = () => {
       <div className="container-fluid">
         <Link className="navbar1-brand" to="/" onClick={closeMenu}>
           <img src={Logo} alt="Logo" className="logo1" />
-          <h1>St Joseph's Church<span className="newline">Kamplar</span></h1>
+          <h1>
+            St Joseph's Church<span className="newline">Kamplar</span>
+          </h1>
         </Link>
         <button className="navbar1-toggler" onClick={toggleNavbar}>
           <FontAwesomeIcon icon={navbarOpen ? faTimes : faBars} size="2x" />
@@ -92,38 +104,36 @@ const Nav = () => {
             ])}
 
             {renderDropdown("Participatary Structures", "pt-sr", [
-              <ul className="dropdown-menu3 show">
-                {renderSubDropdown("திருத்தூதுக் கழகங்கள்", "p1", [
-                  <li><Link to="/மரியாவின் சேனை" className="dropdown-item4" onClick={closeMenu}>மரியாயின் சேனை</Link></li>,
-                  <li><Link to="/வின்சென்ட் தெ பால் சங்கம்" className="dropdown-item4" onClick={closeMenu}>வின்சென்ட் தெ பால் சங்கம்</Link></li>,
-                  <li><Link to="/கத்தோலிக்க சேவா சங்கம்" className="dropdown-item4" onClick={closeMenu}>கத்தோலிக்க சேவா சங்கம்</Link></li>
-                ])}
-                {renderSubDropdown("உருவாக்க அமைப்புகள்", "p2", [
-                  <li><Link to="/பாலர் சபை" className="dropdown-item4" onClick={closeMenu}>பாலர் சபை</Link></li>,
-                  <li><Link to="/சிறார் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>சிறார் இயக்கம்</Link></li>,
-                  <li><Link to="/இளம் கிறித்தவ மாணாக்கர் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>இளம் கிறித்தவ மாணாக்கர் இயக்கம்</Link></li>,
-                  <li><Link to="/இளையோர் இயக்கம் ( ஆண்கள்) " className="dropdown-item4" onClick={closeMenu}>இளையோர் இயக்கம் ( ஆண்கள்)</Link></li>,
-                  <li><Link to="/இளையோர் இயக்கம் ( பெண்கள்)" className="dropdown-item4" onClick={closeMenu}>இளையோர் இயக்கம் ( பெண்கள்)</Link></li>,
-                  <li><Link to="/பெண்கள் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>பெண்கள் இயக்கம்</Link></li>,
-                  <li><Link to="/விவிலியப் பணிக்குழு" className="dropdown-item4" onClick={closeMenu}>விவிலியப் பணிக்குழு</Link></li>
-                ])}
-                {renderSubDropdown("சேவை அமைப்புகள்", "p3", [
-                  <li><Link to="/பெண்கள் கிராம முன்னேற்றச் சங்கம்" className="dropdown-item4" onClick={closeMenu}>பெண்கள் கிராம முன்னேற்றச் சங்கம்</Link></li>,
-                  <li><Link to="/கோல்பிங்  இயக்கம்" className="dropdown-item4" onClick={closeMenu}>கோல்பிங் இயக்கம்</Link></li>,
-                  <li><Link to="/கைகள் தன்னம்பிக்கை இயக்கம்" className="dropdown-item4" onClick={closeMenu}>கைகள் தன்னம்பிக்கை இயக்கம்</Link></li>,
-                  <li><Link to="/அடித்தள முழுவளர்ச்சி சங்கம்" className="dropdown-item4" onClick={closeMenu}>அடித்தள முழுவளர்ச்சி சங்கம்</Link></li>
-                ])}
-                {renderSubDropdown("வழிபாட்டு அமைப்புகள்", "p4", [
-                  <li><Link to="/வழிபாட்டுக் குழு" className="dropdown-item4" onClick={closeMenu}>வழிபாட்டுக் குழு</Link></li>,
-                  <li><Link to="/பாடகர் குழு" className="dropdown-item4" onClick={closeMenu}>பாடகர் குழு</Link></li>,
-                  <li><Link to="/பீடச்சிறார்" className="dropdown-item4" onClick={closeMenu}>பீடச்சிறார்</Link></li>
-                ])}
-              </ul>
+              renderSubDropdown("திருத்தூதுக் கழகங்கள்", "p1", [
+                <li><Link to="/மரியாவின் சேனை" className="dropdown-item4" onClick={closeMenu}>மரியாயின் சேனை</Link></li>,
+                <li><Link to="/வின்சென்ட் தெ பால் சங்கம்" className="dropdown-item4" onClick={closeMenu}>வின்சென்ட் தெ பால் சங்கம்</Link></li>,
+                <li><Link to="/கத்தோலிக்க சேவா சங்கம்" className="dropdown-item4" onClick={closeMenu}>கத்தோலிக்க சேவா சங்கம்</Link></li>
+              ]),
+              renderSubDropdown("உருவாக்க அமைப்புகள்", "p2", [
+                <li><Link to="/பாலர் சபை" className="dropdown-item4" onClick={closeMenu}>பாலர் சபை</Link></li>,
+                <li><Link to="/சிறார் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>சிறார் இயக்கம்</Link></li>,
+                <li><Link to="/இளம் கிறித்தவ மாணாக்கர் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>இளம் கிறித்தவ மாணாக்கர் இயக்கம்</Link></li>,
+                <li><Link to="/இளையோர் இயக்கம் ( ஆண்கள்)" className="dropdown-item4" onClick={closeMenu}>இளையோர் இயக்கம் ( ஆண்கள்)</Link></li>,
+                <li><Link to="/இளையோர் இயக்கம் ( பெண்கள்)" className="dropdown-item4" onClick={closeMenu}>இளையோர் இயக்கம் ( பெண்கள்)</Link></li>,
+                <li><Link to="/பெண்கள் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>பெண்கள் இயக்கம்</Link></li>,
+                <li><Link to="/விவிலியப் பணிக்குழு" className="dropdown-item4" onClick={closeMenu}>விவிலியப் பணிக்குழு</Link></li>
+              ]),
+              renderSubDropdown("சேவை அமைப்புகள்", "p3", [
+                <li><Link to="/பெண்கள் கிராம முன்னேற்றச் சங்கம்" className="dropdown-item4" onClick={closeMenu}>பெண்கள் கிராம முன்னேற்றச் சங்கம்</Link></li>,
+                <li><Link to="/கோல்பிங் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>கோல்பிங் இயக்கம்</Link></li>,
+                <li><Link to="/கைகள் தன்னம்பிக்கை இயக்கம்" className="dropdown-item4" onClick={closeMenu}>கைகள் தன்னம்பிக்கை இயக்கம்</Link></li>,
+                <li><Link to="/அடித்தள முழுவளர்ச்சி சங்கம்" className="dropdown-item4" onClick={closeMenu}>அடித்தள முழுவளர்ச்சி சங்கம்</Link></li>
+              ]),
+              renderSubDropdown("வழிபாட்டு அமைப்புகள்", "p4", [
+                <li><Link to="/வழிபாட்டுக் குழு" className="dropdown-item4" onClick={closeMenu}>வழிபாட்டுக் குழு</Link></li>,
+                <li><Link to="/பாடகர் குழு" className="dropdown-item4" onClick={closeMenu}>பாடகர் குழு</Link></li>,
+                <li><Link to="/பீடச்சினார்" className="dropdown-item4" onClick={closeMenu}>பீடச்சினார்</Link></li>
+              ])
             ])}
 
             {renderDropdown("Gallery", "gallery", [
-              <li><Link className="dropdown-item4 " to="/images-category" onClick={closeMenu}>Images</Link></li>,
-              <li><Link className="dropdown-item4 " to="/videos" onClick={closeMenu}>Videos</Link></li>
+              <li><Link className="dropdown-item4" to="/images-category" onClick={closeMenu}>Images</Link></li>,
+              <li><Link className="dropdown-item4" to="/videos" onClick={closeMenu}>Videos</Link></li>
             ])}
 
             <li className="nav-item">

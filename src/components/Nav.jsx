@@ -100,10 +100,10 @@ const Nav = () => {
               <li key="home2"><Link className="dropdown-item4" to="/about" onClick={closeMenu}>About us</Link></li>,
               <li key="home3"><Link className="dropdown-item4" to="/history-details" onClick={closeMenu}>Our History</Link></li>,
               <li key="home4"><Link className="dropdown-item4" to="/heart-convent" onClick={closeMenu}>Sacred Heart Convent</Link></li>,
-              <li key="home5"><Link className="dropdown-item4" to="/about" onClick={closeMenu}>St.Joseph's Auditorium</Link></li>,
+              <li key="home5"><Link className="dropdown-item4" to="/auditorium" onClick={closeMenu}>St.Joseph's Auditorium</Link></li>,
               <li key="home6"><Link className="dropdown-item4" to="/old-priest" onClick={closeMenu}>Our Parish Priests</Link></li>,
               <li key="home7"><Link className="dropdown-item4" to="/service" onClick={closeMenu}>Our People at God's Service</Link></li>,
-              <li key="home8"><Link className="dropdown-item4" to="/about" onClick={closeMenu}>The Substation</Link></li>
+              <li key="home8"><Link className="dropdown-item4" to="/substation" onClick={closeMenu}>The Substation</Link></li>
             ])}
 
             {renderDropdown("Administration", "admin", [

@@ -1,8 +1,8 @@
 import React from 'react';
 import '../Style/HistoryDetails.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Image1 from "../images/all-soul/1.png";
-import Image4 from "../images/all-soul/image.png";
+import Image1 from "../images/History/1.png";
+import Image2 from "../images/History/2.png";
 // Anbiyam 1
 
 
@@ -16,7 +16,7 @@ const HistoryDetails = () => {
       <Row className="align-items-center">
   {/* Left Side - Image */}
   <Col md={6} className="text-center">
-    <img src={Image4} alt="Church History" className="rect-img-HD img-fluid" />
+    <img src={Image1} alt="Church History" className="rect-img-HD3 img-fluid" />
   </Col>
 
   {/* Right Side - Text */}
@@ -35,13 +35,13 @@ The stone-cut Cross which has been venerated at Devandivilai, at the heart of Ka
 
   {/* Right Side - Image */}
   <Col md={6} className="text-center">
-    <img src={Image4} alt="Church History" className="rect-img-HD img-fluid" />
+    <img src={Image2} alt="Church History" className="rect-img-HD img-fluid" />
   </Col>
 </Row>
 <Row className="align-items-center">
   {/* Left Side - Image */}
   <Col md={6} className="text-center">
-    <img src={Image4} alt="Church History" className="rect-img-HD3 img-fluid"/>
+    <img src={Image2} alt="Church History" className="rect-img-HD31 img-fluid"/>
   </Col>
 
   {/* Right Side - Text */}
@@ -61,7 +61,7 @@ The Golden Jubilee  of St. Joseph's Church, Kamplar, was celebrated in a grand m
 
   {/* Right Side - Image */}
   <Col md={6} className="text-center">
-    <img src={Image4} alt="Church History" className="rect-img-HD3 img-fluid" />
+    <img src={Image2} alt="Church History" className="rect-img-HD31 img-fluid" />
   </Col>
 </Row>
     </Container>

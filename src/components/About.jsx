@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Style/About.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Image4 from "../images/all-soul/image.png";
+import Image4 from "../images/Auditorium/2.png";
 
 const About = () => {
   return (

@@ -2,6 +2,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0;
     animation: fadeIn 1s ease-out forwards;
+    padding-top: 145px;
   }
   
   @keyframes fadeIn {
@@ -97,6 +98,7 @@
     object-fit: cover;
     transition: transform 0.3s ease;
     border-radius: 12px;
+    padding-bottom: 10px;
   }
   
   .gallery-img:hover {
@@ -125,3 +127,27 @@
     }
   }
   
+  @media (max-width: 576px) {
+    .heart-convent{
+      margin-top: -60px;
+    }
+    .main-image {
+      width: 410px;
+      
+      height: 220px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      border-radius: 12px;
+    }
+    .gallery-img {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      border-radius: 50%;
+
+    }
+    
+
+
+  }

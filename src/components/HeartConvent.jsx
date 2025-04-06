@@ -22,10 +22,10 @@ const HeartConvent = () => {
   }, []);
 
   return (
-    <div className="heart-convent container my-5">
+    <div className="heart-convent container ">
       
       {/* Title */}
-      <h2 className="text-center mb-5 section-title scroll-reveal">
+      <h2 className="text-center mb-5 section-title scroll-reveal ">
         St. Joseph’s Church Convent
       </h2>
 

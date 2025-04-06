@@ -15,14 +15,14 @@ const member1 = [
 
 const Anbiyangal = () => {
 return (
-<><br /><br /><br /><br /><br /><b><br /></b>
+<>
 
 
 
 
 
 {/* anbiyangal-1 */}
-<Container className="anbiyangal-container ">
+<Container className="anbiyangal-container mt-5 ">
 <h1 className="section-title">அன்பியம்-1</h1>
 <p className="section-subtitle text-center">புனித சூசையப்பர் அன்பியம்</p>
 <Row className="align-items-center">

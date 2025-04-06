@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image1 from "../images/heart-convent/1.png";
-import Image2 from "../images/heart-convent/2.png";
-import Image3 from "../images/heart-convent/3.png";
+import Image2 from "../images/service/2.png";
+import Image3 from "../images/service/5.png";
 
-import '../Style/HeartConvent.css'; // Make sure path is correct
+import '../Style/HeartConvent.css';
 
 const HeartConvent = () => {
   useEffect(() => {
@@ -22,14 +22,13 @@ const HeartConvent = () => {
   }, []);
 
   return (
-    <div className="heart-convent container ">
-      
+    <div className="heart-convent container">
       {/* Title */}
-      <h2 className="text-center mb-5 section-title scroll-reveal ">
-        St. Joseph’s Church Convent
+      <h2 className="text-center mb-5 section-title scroll-reveal">
+        St. Joseph’s Church  Sacred Heart Convent
       </h2>
 
-      {/* Rectangular Main Image */}
+      {/* Main Image */}
       <div className="row mb-5 scroll-reveal">
         <div className="col text-center">
           <img
@@ -51,21 +50,23 @@ const HeartConvent = () => {
         </div>
       </div>
 
-      {/* Two Bottom Square Images */}
+      {/* Circular Gallery Images with Titles */}
       <div className="row justify-content-center scroll-reveal">
-        <div className="col-md-5 mb-4 d-flex justify-content-center">
-          <img 
-            src={Image2} 
-            alt="Convent Gallery" 
-            className="img-fluid rounded-3 shadow hover-zoom gallery-img"
+        <div className="col-md-5 mb-4 d-flex flex-column align-items-center text-center">
+          <img
+            src={Image2}
+            alt="Sisters Serving"
+            className="img-fluid rounded-circle shadow hover-zoom gallery-img"
           />
+          <h1 className="gallery-title mt-3">Rev. Sr. C. Arul Seeli</h1>
         </div>
-        <div className="col-md-5 mb-4 d-flex justify-content-center">
-          <img 
-            src={Image3} 
-            alt="Convent Interior" 
-            className="img-fluid rounded-3 shadow hover-zoom gallery-img"
+        <div className="col-md-5 mb-4 d-flex flex-column align-items-center text-center">
+          <img
+            src={Image3}
+            alt="Convent Prayer"
+            className="img-fluid rounded-circle shadow hover-zoom gallery-img"
           />
+          <h1 className="gallery-title mt-3">Rev. Sr. Leela Roselin Rani</h1>
         </div>
       </div>
     </div>

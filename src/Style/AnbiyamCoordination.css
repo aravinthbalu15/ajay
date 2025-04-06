@@ -3,3 +3,10 @@
     padding-bottom: 350px;
 
 }
+@media (max-width: 768px) {
+    .anbiyam-co{
+        margin-top: -110px;
+        margin-bottom: -250px;
+    }
+  }
+  

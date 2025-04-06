@@ -1,142 +1,113 @@
-/* Container Styling */
-.our-parish-container {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.our-parish-containers {
   text-align: center;
-  padding: 70px 20px;
-  max-width: 1200px;
-  margin: auto;
-  margin-top: -80px;
-  background-color: rgb(245, 243, 243);
+  padding: 80px 20px;
+  background-color: #f9f9f9;
 }
 
-/* Heading */
-h2 {
-  font-size: 28px;
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
   margin-bottom: 40px;
+  color: #333;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-/* First Row - Members Grid */
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 80px;
+  height: 4px;
+  background-color: crimson;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+/* Grid Layout */
 .members-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
-  max-width: 900px;
-  margin: auto;
+  gap: 25px;
 }
 
-/* Second Row - Members in a single row */
-.members-list1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  max-width: 900px;
-  margin: auto;
-  padding: 10px 0;
-}
-
-/* Member Card Styling */
+/* Card Style */
 .member-row {
-  background: #f8f9fa;
-  padding: 15px;
-  border-radius: 10px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
   text-align: center;
-  transition: transform 0.3s ease, background 0.3s ease;
-  cursor: pointer;
-  position: relative;
-  z-index: 2;
-  overflow: hidden;
-  width: 250px; /* Increased for better alignment */
-  max-width: 300px;
+  width: 260px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .member-row:hover {
-  transform: scale(1.05);
-  background: #e2e6ea;
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* Image Styling */
+/* Image */
 .member-image {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Name Styling */
+/* Text */
 .member-name {
-  font-size: 18px;
+  font-size: 1.25rem;
   font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
 }
 
-/* Popup Styling */
-.popup-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 5;
+.member-info {
+  font-size: 1rem;
+  color: #666;
 }
 
-.popup-content {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  max-width: 300px;
-}
-
-.popup-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-}
-
-.close-bt {
-  margin-top: 15px;
-  padding: 8px 16px;
-  background: crimson;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  z-index: 10; /* Ensure it's above other elements */
-}
-
-.close-bt:hover {
-  background: darkred;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .members-list,
-  .members-list1 {
-    flex-direction: column;
-    gap: 20px;
-  }
-}
-
+/* Responsive */
 @media (max-width: 768px) {
-  .members-list,
-  .members-list1 {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
   .member-row {
-    width: 100%;
-    max-width: 300px;
+    width: 90%;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-parish-containers {
+    padding: 60px 10px;
+    padding-top: 10px;
+    
+  }
+
+
+  .member-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .member-name {
+    font-size: 1.1rem;
+  }
+
+  .member-info {
+    font-size: 0.95rem;
   }
 }

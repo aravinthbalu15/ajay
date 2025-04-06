@@ -31,7 +31,7 @@ const WordOfGod = () => {
   return (
     <section className="word-of-god">
       <Container>
-        <Row className="justify-content-center align-items-center">
+        <div className="justify-content-center align-items-center">
           <Col md={10} className="text-center">
             <p className="subheading">WORD OF GOD</p>
             <h2 key={currentQuote} className="quote fade-in-slide">
@@ -39,7 +39,7 @@ const WordOfGod = () => {
             </h2>
             <p className="references">{quotes[currentQuote].reference}</p>
           </Col>
-        </Row>
+        </div>
       </Container>
     </section>
   );

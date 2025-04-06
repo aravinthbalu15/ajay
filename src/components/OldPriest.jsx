@@ -25,7 +25,7 @@ const otherMembers = [
 const OldPriest = () => {
   return (
     
-    <div className="our-parish-containers mt-5"><br /><br />
+    <div className="our-parish-containers mt-5">
       {/* First View Box - Old Priests */}
       <h2 className="section-title mt-5">Our Former Parish Priests</h2>
      

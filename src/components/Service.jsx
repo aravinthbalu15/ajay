@@ -16,7 +16,8 @@ const Service = () => {
   };
 
   return (
-    <div className="service-container  ">
+    <div className="service-container mt-5 ">
+      <h1 className="cotainer text-center mt-5">Our people at God's Service</h1>
       <div className="row align-items-center my-5">
         {/* Profile Image */}
         <div className="col-md-4 text-center">
@@ -25,8 +26,8 @@ const Service = () => {
 
         {/* Personal Information */}
         <div className="col-md-8">
-          <h2 className="service-history-heading">Fr. Anish</h2>
-          {/* <p><strong>Priest ID:</strong> RCDK149</p> */}
+          {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
+          <p><strong>Name:</strong> RCDK149</p>
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -44,8 +45,8 @@ const Service = () => {
 
         {/* Personal Information */}
         <div className="col-md-8">
-          <h2 className="service-history-heading">Fr. Anish</h2>
-          {/* <p><strong>Priest ID:</strong> RCDK149</p> */}
+          {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
+          <p><strong>Name:</strong> Rev. Sr. C. Arul Seeli</p>
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -63,8 +64,8 @@ const Service = () => {
 
         {/* Personal Information */}
         <div className="col-md-8">
-          <h2 className="service-history-heading">Fr. Anish</h2>
-          {/* <p><strong>Priest ID:</strong> RCDK149</p> */}
+          {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
+          <p><strong>Name:</strong> RCDK149</p>
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -82,8 +83,8 @@ const Service = () => {
 
         {/* Personal Information */}
         <div className="col-md-8">
-          <h2 className="service-history-heading">Fr. Anish</h2>
-          {/* <p><strong>Priest ID:</strong> RCDK149</p> */}
+          {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
+          <p><strong>Name:</strong> RCDK149</p>
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -101,8 +102,8 @@ const Service = () => {
 
         {/* Personal Information */}
         <div className="col-md-8">
-          <h2 className="service-history-heading">Fr. Anish</h2>
-          {/* <p><strong>Priest ID:</strong> RCDK149</p> */}
+          {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
+          <p><strong>Name:</strong> Rev. Sr. Leela Roselin Rani</p>
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>

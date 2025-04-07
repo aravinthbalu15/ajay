@@ -136,7 +136,7 @@ const Nav = () => {
               renderSubDropdown("வழிபாட்டு அமைப்புகள்", "p4", [
                 <li key="p4-1"><Link to="/வழிபாட்டுக் குழு" className="dropdown-item4" onClick={closeMenu}>வழிபாட்டுக் குழு</Link></li>,
                 <li key="p4-2"><Link to="/பாடகர் குழு" className="dropdown-item4" onClick={closeMenu}>பாடகர் குழு</Link></li>,
-                <li key="p4-3"><Link to="/பீடச்சிறார்" className="dropdown-item4" onClick={closeMenu}>பீடச்சினார்</Link></li>
+                <li key="p4-3"><Link to="/பீடச்சிறார்" className="dropdown-item4" onClick={closeMenu}>பீடச்சிறார்</Link></li>
               ])
             ])}
 

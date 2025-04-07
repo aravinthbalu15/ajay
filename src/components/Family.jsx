@@ -4,7 +4,6 @@ import "../Style/Family.css"; // Ensure you create and import this CSS file
 const Family = () => {
   const stats = [
     { value: "250", label: "Families" },
-    { value: "125", label: "Members" },
     { value: "7", label: "Anbiyams" }
   ];
 

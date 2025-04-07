@@ -140,14 +140,21 @@ const Nav = () => {
               ])
             ])}
 
+            <li className="nav-item">
+              <Link className="nav-link2" to="/festival" onClick={closeMenu}>Main Events</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link2" to="/festival" onClick={closeMenu}>Announcements</Link>
+            </li>
+             <li className="nav-item">
+              <Link className="nav-link2" to="/festival" onClick={closeMenu}>Learn&Grow</Link>
+            </li>
             {renderDropdown("Gallery", "gallery", [
               <li key="gallery1"><Link className="dropdown-item4" to="/images-category" onClick={closeMenu}>Images</Link></li>,
               <li key="gallery2"><Link className="dropdown-item4" to="/videos" onClick={closeMenu}>Videos</Link></li>
             ])}
 
-            <li className="nav-item">
-              <Link className="nav-link2" to="/festival" onClick={closeMenu}>Main Events</Link>
-            </li>
+            
           </ul>
         </div>
       </div>

@@ -2,13 +2,13 @@ import React from "react";
 import Image1 from "../../../images/christmas/1.png"; // Replace with correct path
 
 
-const OAFour = () => {
+const OAThree = () => {
   return (
     <div className="pt-5 mt-5">
       {/* <h1 className="section-title mt-5 ">திருத்தூதர்கள் சங்கங்கள்</h1> */}
 
       {/* Container 1 */}
-      <h1 className="section-title mt-5">இளையோர் இயக்கம் ( ஆண்கள்) </h1>
+      <h1 className="section-title mt-5">பாலர் சபை</h1>
       <div className="body-wrapper">
         <div className="body-container">
           {/* Left Side - Text */}
@@ -37,4 +37,4 @@ const OAFour = () => {
   );
 };
 
-export default OAFour;
+export default OAThree;

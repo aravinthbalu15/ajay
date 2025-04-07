@@ -5,7 +5,7 @@ import Image1 from "../../images/christmas/1.png"; // Replace with correct path
 const Two = () => {
   return (
     <div className="pt-5 mt-5">
-      <h1 className="section-title mt-5">உருவாக்க இயக்கங்கள்</h1>
+      <h1 className="section-title mt-5">உருவாக்க அமைப்புகள்</h1>
 
       {/* Container 1 */}
       <h1 className="section-title ">பாலர் சபை</h1>
@@ -49,7 +49,7 @@ const Two = () => {
       </div>
 
       {/* Container 3 */}
-      <h1 className="section-title "> இளங்கிறிஸ்தவ மாணாக்கர் இயக்கம்</h1>
+      <h1 className="section-title "> இளம் கிறித்தவ மாணாக்கர் இயக்கம்</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -68,7 +68,7 @@ const Two = () => {
       </div>
 
       {/* Container 4 */}
-      <h1 className="section-title ">இளைஞர் இயக்கம்(ஆண்கள்)</h1>
+      <h1 className="section-title ">இளையோர் இயக்கம் ( ஆண்கள்) </h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -86,7 +86,7 @@ const Two = () => {
         </div>
       </div>
       {/* Container 5 */}
-      <h1 className="section-title ">இளைஞர் இயக்கம் (பெண்கள்)
+      <h1 className="section-title ">இளையோர் இயக்கம் ( பெண்கள்)
       </h1>
       <div className="body-wrapper">
         <div className="body-container">
@@ -124,7 +124,7 @@ const Two = () => {
         </div>
       </div>
       {/* Container 6 */}
-      <h1 className="section-title "> விவிலிய பணிக்குழு
+      <h1 className="section-title "> விவிலியப் பணிக்குழு
 
       </h1>
       <div className="body-wrapper">

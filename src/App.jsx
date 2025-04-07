@@ -113,9 +113,9 @@ function App() {
 
         {/* உருவாக்க அமைப்புகள் */}
         <Route path="/பாலர் சபை" element={<OAOne />}/>
-        <Route path="/சிறார் இயக்கம்" element={<OATwo />}/>
+        <Route path="/பாலர் சபை" element={<OATwo />}/>
         <Route path="/இளம் கிறித்தவ மாணாக்கர் இயக்கம்" element={<OAThree/>}/>
-        <Route path="/இளையோர் இயக்கம் ( ஆண்கள்) " element={<OAFour/>}/>
+        <Route path="/இளையோர் இயக்கம்" element={<OAFour/>}/>
         <Route path="/இளையோர் இயக்கம் ( பெண்கள்)" element={<OAFive/>}/>
         <Route path="/பெண்கள் இயக்கம்" element={<OASix/>}/>
         <Route path="/விவிலியப் பணிக்குழு" element={<OASeven/>}/>
@@ -123,13 +123,12 @@ function App() {
         {/* சேவை அமைப்புகள்  */}
         <Route path="/பெண்கள் கிராம முன்னேற்றச் சங்கம்" element={<SAOne />}/>
          <Route path="/கோல்பிங்  இயக்கம்" element={<SATwo/>}/>
-          <Route path="/கைகள் தன்னம் பிக்கை இயக்கம்" element={< SAThree/>}/>
+          <Route path="/கைகள் தன்னம்பிக்கை இயக்கம்" element={< SAThree/>}/>
             <Route path="/அடித்தள முழுவளர்ச்சி சங்கம்" element={<SAFour />}/>
 
 
               <Route path="/வழிபாட்டுக் குழு" element={< VAOne/>}/>
-                <Route path="/பாடகர் குழு" element={< VATwo/>}/>
-                  <Route path="/பீடச்சிறார்" element={< VAThree/>}/>
+                <Route path="/பீடச்சிறார்" element={< VATwo/>}/>
 
 
 

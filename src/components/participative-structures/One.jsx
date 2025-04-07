@@ -5,10 +5,10 @@ import Image1 from "../../images/christmas/1.png"; // Replace with correct path
 const One = () => {
   return (
     <div className="pt-5 mt-5">
-      <h1 className="section-title mt-5 ">திருத்தூதர்கள் சங்கங்கள்</h1>
+      <h1 className="section-title mt-5 ">திருத்தூதுக் கழகங்கள்</h1>
 
       {/* Container 1 */}
-      <h1 className="section-title ">மரியாவின் சேனை</h1>
+      <h1 className="section-title ">மரியாயின்  சேனை</h1>
       <div className="body-wrapper">
         <div className="body-container">
           {/* Left Side - Text */}
@@ -30,7 +30,7 @@ const One = () => {
       </div>
 
       {/* Container 2 */}
-      <h1 className="section-title ">வன்சென்ட் தே பால் சங்கம்</h1>
+      <h1 className="section-title ">வின்சென்ட் தெ பால் சங்கம்</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">
@@ -49,7 +49,7 @@ const One = () => {
       </div>
 
       {/* Container 3 */}
-      <h1 className="section-title ">கதோலிக்க சேவை சங்கம்</h1>
+      <h1 className="section-title ">கத்தோலிக்க சேவா சங்கம்</h1>
       <div className="body-wrapper">
         <div className="body-container">
           <div className="text-section">

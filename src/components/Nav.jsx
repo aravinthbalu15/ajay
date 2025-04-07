@@ -120,9 +120,9 @@ const Nav = () => {
               ]),
               renderSubDropdown("உருவாக்க அமைப்புகள்", "p2", [
                 <li key="p2-1"><Link to="/பாலர் சபை" className="dropdown-item4" onClick={closeMenu}>பாலர் சபை</Link></li>,
-                <li key="p2-2"><Link to="/சırlar இயக்கம்" className="dropdown-item4" onClick={closeMenu}>சırlar இயக்கம்</Link></li>,
+                <li key="p2-2"><Link to="/பாலர் சபை" className="dropdown-item4" onClick={closeMenu}>பாலர் சபை</Link></li>,
                 <li key="p2-3"><Link to="/இளம் கிறித்தவ மாணாக்கர் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>இளம் கிறித்தவ மாணாக்கர் இயக்கம்</Link></li>,
-                <li key="p2-4"><Link to="/இளையோர் இயக்கம் ( ஆண்கள்)" className="dropdown-item4" onClick={closeMenu}>இளையோர் இயக்கம் ( ஆண்கள்)</Link></li>,
+                <li key="p2-4"><Link to="/இளையோர் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>இளையோர் இயக்கம் ( ஆண்கள்)</Link></li>,
                 <li key="p2-5"><Link to="/இளையோர் இயக்கம் ( பெண்கள்)" className="dropdown-item4" onClick={closeMenu}>இளையோர் இயக்கம் ( பெண்கள்)</Link></li>,
                 <li key="p2-6"><Link to="/பெண்கள் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>பெண்கள் இயக்கம்</Link></li>,
                 <li key="p2-7"><Link to="/விவிலியப் பணிக்குழு" className="dropdown-item4" onClick={closeMenu}>விவிலியப் பணிக்குழு</Link></li>
@@ -136,7 +136,7 @@ const Nav = () => {
               renderSubDropdown("வழிபாட்டு அமைப்புகள்", "p4", [
                 <li key="p4-1"><Link to="/வழிபாட்டுக் குழு" className="dropdown-item4" onClick={closeMenu}>வழிபாட்டுக் குழு</Link></li>,
                 <li key="p4-2"><Link to="/பாடகர் குழு" className="dropdown-item4" onClick={closeMenu}>பாடகர் குழு</Link></li>,
-                <li key="p4-3"><Link to="/பீடச்சினார்" className="dropdown-item4" onClick={closeMenu}>பீடச்சினார்</Link></li>
+                <li key="p4-3"><Link to="/பீடச்சிறார்" className="dropdown-item4" onClick={closeMenu}>பீடச்சினார்</Link></li>
               ])
             ])}
 
@@ -146,7 +146,7 @@ const Nav = () => {
             ])}
 
             <li className="nav-item">
-              <Link className="nav-link2" to="/festival" onClick={closeMenu}>Festival</Link>
+              <Link className="nav-link2" to="/festival" onClick={closeMenu}>Main Events</Link>
             </li>
           </ul>
         </div>

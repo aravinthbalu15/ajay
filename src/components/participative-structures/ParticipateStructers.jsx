@@ -4,16 +4,16 @@ import "../../Style/ParticipateStructers.css"; // Ensure you have this CSS file
 
 const ParticipateStructers = () => {
   const stats = [
-    { value: "5", label: "திருத்தூதர்கள் சங்கங்கள்", path: "/one" },
-    { value: "7", label: "உருவாக்க இயக்கங்கள்", path: "/two" },
+    { value: "5", label: "திருத்தூதுக் கழகங்கள்", path: "/one" },
+    { value: "7", label: "உருவாக்க அமைப்புகள்", path: "/two" },
     { value: "4", label: "சேவை அமைப்புகள்", path: "/three" },
-    { value: "4", label: "பொது அமைப்புகள்", path: "/four" },
+    { value: "4", label: "வழிபாட்டு அமைப்புகள்", path: "/four" },
     { value: "3", label: "நிறைவு அமைப்புகள்", path: "/five" }
   ];
 
   return (
     <>
-      <h1 className="section-title mt-5">PARTICIPATE STRUCTURES</h1>
+      <h1 className="section-title mt-5">PARTICIPATORY STRUCTURES</h1>
       <div className="container text-center my-5">
         <div className="row justify-content-center mt-5">
           {stats.map((stat, index) => (

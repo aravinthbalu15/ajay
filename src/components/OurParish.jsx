@@ -17,21 +17,22 @@ import Gladis from "../images/council/gladislily.png";
 import Jerin from "../images/council/jerin.png";
 
 const members = [
-  { id: 1, name: "Priest (President)", original: "Fr. Maria William", img: Image1, p: "Description for the image" },
+  { id: 1, name: "Rev.Fr. Maria William", original: "Rev.Fr. Maria William", img: Image1, p: "Parish Priest and President" },
 ];
 
 const member1 = [
-  { id: 2, name: "Vice-President", original: "Mr. Richard Joseph Raj", img: Image2, p: "Description for the image" },
-  { id: 3, name: "Secretary", original: "Mrs. Jacqulin", img: Image3, p: "Description for the image" },
-  { id: 4, name: "Treasurer", original: "Mrs. Charlet Rani", img: Image4, p: "Description for the image" },
-  { id: 5, name: "Co-Secretary", original: "Mr. Jenish", img: Image5, p: "Description for the image" },
+  { id: 2, name: "Mr. Richard Joseph Raj", original: "Mr. Richard Joseph Raj", img: Image2, p: "Vice President" },
+  { id: 3, name: "Mrs. Jacqueline", original: "Mrs. Jacqulin", img: Image3, p: "Secretary" },
+  { id: 4, name: "Mrs. Charlet Rani", original: "Mrs. Charlet Rani", img: Image4, p: "Treasure" },
+  { id: 5, name: "Mr.M. Jenish", original: "Mr. Jenish", img: Image5, p: "Co-Secretary" },
 ];
 
 const council = [
+  { id: 9, name: "GLADIS LILY", original: "GLADIS LILY", img: Gladis, p: "Description for the image" },
+
   { id: 6, name: "SHAJI", original: "SHAJI", img: Shaji, p: "அன்பியம்-01" },
   { id: 7, name: "JENIBA", original: "JENIBA", img: Jeniba, p: "கத்தோலிக்க சேவா சங்கம்" },
   { id: 8, name: "ASHWIN A", original: "ASHWIN A", img: Ashwin, p: "அன்பியம்-06" },
-  { id: 9, name: "GLADIS LILY", original: "GLADIS LILY", img: Gladis, p: "Description for the image" },
   { id: 10, name: "JERIN", original: "JERIN", img: Jerin, p: "Description for the image" },
 ];
 

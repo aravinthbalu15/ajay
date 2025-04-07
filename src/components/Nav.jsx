@@ -120,7 +120,7 @@ const Nav = () => {
               ]),
               renderSubDropdown("உருவாக்க அமைப்புகள்", "p2", [
                 <li key="p2-1"><Link to="/பாலர் சபை" className="dropdown-item4" onClick={closeMenu}>பாலர் சபை</Link></li>,
-                <li key="p2-2"><Link to="/பாலர் சபை" className="dropdown-item4" onClick={closeMenu}>பாலர் சபை</Link></li>,
+                <li key="p2-2"><Link to="/சிறார் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>சிறார் இயக்கம்</Link></li>,
                 <li key="p2-3"><Link to="/இளம் கிறித்தவ மாணாக்கர் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>இளம் கிறித்தவ மாணாக்கர் இயக்கம்</Link></li>,
                 <li key="p2-4"><Link to="/இளையோர் இயக்கம்" className="dropdown-item4" onClick={closeMenu}>இளையோர் இயக்கம் ( ஆண்கள்)</Link></li>,
                 <li key="p2-5"><Link to="/இளையோர் இயக்கம் ( பெண்கள்)" className="dropdown-item4" onClick={closeMenu}>இளையோர் இயக்கம் ( பெண்கள்)</Link></li>,

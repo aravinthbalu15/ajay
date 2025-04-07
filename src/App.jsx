@@ -113,7 +113,7 @@ function App() {
 
         {/* உருவாக்க அமைப்புகள் */}
         <Route path="/பாலர் சபை" element={<OAOne />}/>
-        <Route path="/பாலர் சபை" element={<OATwo />}/>
+        <Route path="/சிறார் இயக்கம்" element={<OATwo />}/>
         <Route path="/இளம் கிறித்தவ மாணாக்கர் இயக்கம்" element={<OAThree/>}/>
         <Route path="/இளையோர் இயக்கம்" element={<OAFour/>}/>
         <Route path="/இளையோர் இயக்கம் ( பெண்கள்)" element={<OAFive/>}/>

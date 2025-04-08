@@ -24,17 +24,17 @@ const About = () => {
         <Col md={10}>
           <p className="full-width-text">
           We, the people of St. Joseph's Church parish, Kamplar, deeply cherish our
-Chris=an Faith and long Catholic heritage. Our parish belongs to the Roman
+Christian Faith and long Catholic heritage. Our parish belongs to the Roman
 Catholic diocese of Kuzhithurai. That our church is just 3.5 k.m. away from
-Natalam, the na=ve village of St. Devasahayam, adds to its spiritual significance.            <br /><br />
+Natalam, the native village of St. Devasahayam, adds to its spiritual significance.            <br /><br />
 Our parish has about 225 families organized into seven Basic Christan
-Communi=es (Anbiams). It is a very ac=ve parish, led by our parish pastoral
-council, and having a plethora of apostolic associa=ons and par=cipatory
+Communities (Anbiams). It is a very active parish, led by our parish pastoral
+council, and having a plethora of apostolic associations and participatory
 structures to form us and to serve people.            <br /><br />
 The stone-cross, belonging to St. Thomas' era, found at Devandivilai, within our
-parish, remain a witness, reminding us of the =mes of yore when Chris=an faith
+parish, remain a witness, reminding us of the times of yore when Christian faith
 dawned upon us.            <br /><br />
-Kamplar, once known for its Palmyra-based tradi=ons and farming, s=ll keeping
+Kamplar, once known for its Palmyra-based traditions and farming, still keeping
 its lush green environment, enjoys a pleasant climate with both Southwest and
 Northeast monsoons.          </p>
 <p>St. Joseph's Church, Kamplar is located within Killiyoor Taluk, at the South-

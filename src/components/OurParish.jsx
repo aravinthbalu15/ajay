@@ -9,7 +9,7 @@ import Image4 from "../images/rani.jpeg";
 import Image5 from "../images/jenish.jpeg";
 
 // Importing images for council members
-import Sajitha from "../images/council/sajitha.png";
+import Maria from "../images/council/2.png";
 import Shaji from "../images/council/shaji.png";
 import Jeniba from "../images/council/jeniba.png";
 import Ashwin from "../images/council/ashwin.png";
@@ -28,12 +28,14 @@ const member1 = [
 ];
 
 const council = [
-  { id: 9, name: "GLADIS LILY", original: "GLADIS LILY", img: Gladis, p: "Description for the image" },
+  { id: 6, name: "GLADIS LILY", original: "GLADIS LILY", img: Gladis, p: "Description for the image" },
+  { id: 7, name: "Mrs.S.Maria Selvam", original: "Mrs.S.Maria Selvam", img: Maria, p: "Member" },
 
-  { id: 6, name: "SHAJI", original: "SHAJI", img: Shaji, p: "அன்பியம்-01" },
-  { id: 7, name: "JENIBA", original: "JENIBA", img: Jeniba, p: "கத்தோலிக்க சேவா சங்கம்" },
-  { id: 8, name: "ASHWIN A", original: "ASHWIN A", img: Ashwin, p: "அன்பியம்-06" },
-  { id: 10, name: "JERIN", original: "JERIN", img: Jerin, p: "Description for the image" },
+
+  { id: 8, name: "SHAJI", original: "SHAJI", img: Shaji, p: "அன்பியம்-01" },
+  { id: 9, name: "JENIBA", original: "JENIBA", img: Jeniba, p: "கத்தோலிக்க சேவா சங்கம்" },
+  { id: 10, name: "ASHWIN A", original: "ASHWIN A", img: Ashwin, p: "Member" },
+  { id: 11, name: "JERIN", original: "JERIN", img: Jerin, p: "Description for the image" },
 ];
 
 const OurParish = () => {

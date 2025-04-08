@@ -268,7 +268,7 @@ return (
 {/* anbiyangal-7 */}
 <Container className="anbiyangal-container7 mb-5">
 <h1 className="section-title">அன்பியம்-7</h1>
-<p className="section-subtitle text-center">புனித அந்தோனியார் அன்பியம்</p>
+<p className="section-subtitle text-center">புனித அந்தோணியார் அன்பியம்</p>
 <Row className="align-items-center">
 {/* Left Side - Three Circular Images (Mobile: Second, Desktop: First) */}
 <Col md={6} className="d-flex flex-column align-items-start gap-4 left-side order-1 order-md-0">

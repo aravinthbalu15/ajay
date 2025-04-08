@@ -56,6 +56,7 @@ import VAThree from "./components/participative-structures/va/VAThree";
 import HeartConvent from "./components/HeartConvent";
 import Auditorium from "./components/Auditorium";
 import Substation from "./components/Substation";
+import VissionandMission from "./components/VissionandMission";
 
 function App() {
   const location = useLocation();
@@ -71,6 +72,8 @@ function App() {
         <Route path="/" element={<Home />} />
         {/* Home */}
         <Route path="/heart-convent" element={<HeartConvent />} />
+        <Route path="/vission-mission" element={<VissionandMission />} />
+
         <Route path="/auditorium" element={<Auditorium />} />
         <Route path="/substation" element={<Substation />} />
         <Route path="/admin-product" element={<AdminAddImages />} />

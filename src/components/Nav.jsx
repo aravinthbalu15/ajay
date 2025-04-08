@@ -98,7 +98,7 @@ const Nav = () => {
             {renderDropdown("Home", "home", [
               <li key="home1"><Link className="dropdown-item4" to="/" onClick={closeMenu}>Home</Link></li>,
               <li key="home2"><Link className="dropdown-item4" to="/about" onClick={closeMenu}>About us</Link></li>,
-              <li key="home2"><Link className="dropdown-item4" to="/about" onClick={closeMenu}>Vision & Mission</Link></li>,
+              <li key="home2"><Link className="dropdown-item4" to="/vission-mission" onClick={closeMenu}>Vision & Mission</Link></li>,
 
               <li key="home3"><Link className="dropdown-item4" to="/history-details" onClick={closeMenu}>Our History</Link></li>,
               <li key="home4"><Link className="dropdown-item4" to="/heart-convent" onClick={closeMenu}>Sacred Heart Convent</Link></li>,

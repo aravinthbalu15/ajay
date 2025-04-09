@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image1 from "../images/heart-convent/1.png";
-import Image2 from "../images/service/2.png";
+import Image2 from "../images/heart-convent/2.png";
 import Image3 from "../images/heart-convent/3.png";
 
 import '../Style/HeartConvent.css';

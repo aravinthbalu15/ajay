@@ -110,7 +110,7 @@
 }
 
 /* Titles Under Images */
-.gallery-title {
+.gallery-title1{
   font-size: 1.5rem;
   font-weight: 600;
   color: #333;
@@ -139,7 +139,7 @@
     height: 250px;
   }
 
-  .gallery-title {
+  .gallery-title1 {
     font-size: 1.3rem;
   }
 }
@@ -161,7 +161,7 @@
     height: 200px;
   }
 
-  .gallery-title {
+  .gallery-title1{
     font-size: 1.1rem;
   }
 }

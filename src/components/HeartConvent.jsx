@@ -58,7 +58,9 @@ const HeartConvent = () => {
             alt="Sisters Serving"
             className="img-fluid rounded-circle shadow hover-zoom gallery-img"
           />
-          <h1 className="gallery-title mt-3">Rev. Sr. C. Arul Seeli</h1>
+          <h1 className="gallery-title1 mt-3">Rev. Sr. C. Arul Seeli</h1>
+          <p>Scared Heart Convent <br/><p>St. Joseph's Church Kamplar</p></p>
+
         </div>
         <div className="col-md-5 mb-4 d-flex flex-column align-items-center text-center">
           <img
@@ -66,7 +68,9 @@ const HeartConvent = () => {
             alt="Convent Prayer"
             className="img-fluid rounded-circle shadow hover-zoom gallery-img"
           />
-          <h1 className="gallery-title mt-3">Rev. Sr. Leela Roselin Rani</h1>
+          <h1 className="gallery-title1 mt-3">Rev. Sr. Leela Roselin Rani</h1>
+          <p>Scared Heart Convent <br/><p>St. Joseph's Church Kamplar</p></p>
+          
         </div>
       </div>
     </div>

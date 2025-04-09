@@ -28,7 +28,7 @@ const member1 = [
 ];
 
 const council = [
-  { id: 6, name: " Mrs. Gladis Lily", original: "Mrs. Gladis Lily", img: Gladis, p: "Member" },
+  { id: 6, name: " Dr. Gladis Lily", original: "Mrs. Gladis Lily", img: Gladis, p: "Member" },
   { id: 7, name: "Mrs.S.Maria Selvam", original: "Mrs.S.Maria Selvam", img: Maria, p: "Member" },
 
 

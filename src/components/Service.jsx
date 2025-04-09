@@ -7,6 +7,8 @@ import Image2 from "../images/service/2.png";
 import Image3 from "../images/service/3.png";
 import Image4 from "../images/service/4.png";
 import Image5 from "../images/service/5.png";
+import Image6 from "../images/service/6.png";
+
 
 
 
@@ -29,7 +31,7 @@ const Service = () => {
         {/* Personal Information */}
         <div className="col-md-8">
           {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
-          <p><strong>Name:</strong> RCDK149</p>
+          <p><strong>Name:</strong>Rev. Sr. Armella S R A</p>
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -48,7 +50,7 @@ const Service = () => {
         {/* Personal Information */}
         <div className="col-md-8">
           {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
-          <p><strong>Name:</strong> Rev. Sr. C. Arul Seeli</p>
+          <p><strong>Name:</strong>Rev. Br. Maria Simson</p>
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -67,7 +69,7 @@ const Service = () => {
         {/* Personal Information */}
         <div className="col-md-8">
           {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
-          <p><strong>Name:</strong> RCDK149</p>
+          <p><strong>Name:</strong>Rev. Sr. Crystal shylla</p>
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -86,7 +88,7 @@ const Service = () => {
         {/* Personal Information */}
         <div className="col-md-8">
           {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
-          <p><strong>Name:</strong> RCDK149</p>
+          <p><strong>Name:</strong> Rev. Sr.Ezhil </p>
           <p><strong>Date of Birth:</strong> 03.07.1994</p>
           <p><strong>Place of Birth:</strong> Kamplar</p>
           <p><strong>Date of Ordination:</strong> 14.04.2024</p>
@@ -113,6 +115,27 @@ const Service = () => {
           <p><strong>Address:</strong> Church of Our Lady of Assumption, Mathiravilai</p>
           <p><strong>Email:</strong> anishkuz94@gmail.com</p>
         </div>
+        
+      </div>
+       {/* Images-6 */}
+       <div className="row align-items-center my-5">
+        {/* Profile Image */}
+        <div className="col-md-4 text-center">
+          <img src={Image6} alt="Profile" className="img-fluid profile-image" />
+        </div>
+
+        {/* Personal Information */}
+        <div className="col-md-8">
+          {/* <h2 className="service-history-heading">Fr. Anish</h2> */}
+          <p><strong>Name:</strong> Rev. Fr. Anish</p>
+          <p><strong>Date of Birth:</strong> 03.07.1994</p>
+          <p><strong>Place of Birth:</strong>Vellore</p>
+          <p><strong>Date of Ordination:</strong>21-06-2021</p>
+          <p><strong>Ministering At:</strong>Sacred Heart Novitiate</p>
+          <p><strong>Address:</strong> Church of Our Lady of Assumption, Mathiravilai</p>
+          <p><strong>Email:</strong> anishkuz94@gmail.com</p>
+        </div>
+        
       </div>
     </div>
   );

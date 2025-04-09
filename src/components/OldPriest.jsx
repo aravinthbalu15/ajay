@@ -10,15 +10,15 @@ import Image06 from "../images/oldpriest/6.jpeg" // Ensure the correct path
 
 
 const oldPriests = [
-    { id: 1, name: "Fr. Arul Devadasan", dob: "2008 - 2015", img: Image01 },
-    { id: 2, name: "Fr. S. Maria Martin", dob: "May 2015 - May 2016",  img: Image02 },
-    { id: 3, name: "Fr. S. Vargheese", dob: " May 2016 to December 2018",img: Image1 },
+    { id: 1, name: "Rev. Fr. Arul Devadasan", dob: "2008 - 2015", img: Image01 },
+    { id: 2, name: "Rev. Fr. S. Maria Martin", dob: "May 2015 - May 2016",  img: Image02 },
+    { id: 3, name: "Rev .Fr. S. Vargheese", dob: " May 2016 to December 2018",img: Image1 },
 ];
 
 const otherMembers = [
-    { id: 4, name: "⁠FR. JUSTUS", dob: "2019to May 2019 (in charge)", img: Image1 },
-    { id: 5, name: "Fr. N. John Benhar", dob: "May 2019 to May 2024",img: Image05 },
-    { id: 3, name: "Fr. M.Maria William", dob: "May 2024 to ...",img: Image06 },
+    { id: 4, name: "Rev. ⁠FR. Justus", dob: "2019to May 2019 (in charge)", img: Image1 },
+    { id: 5, name: "Rev. Fr. N. John Benhar", dob: "May 2019 to May 2024",img: Image05 },
+    { id: 3, name: "Rev. Fr. M.Maria William", dob: "May 2024 to ...",img: Image06 },
 
 ];
 

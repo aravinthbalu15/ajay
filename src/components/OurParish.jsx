@@ -28,14 +28,15 @@ const member1 = [
 ];
 
 const council = [
-  { id: 6, name: " Mrs. Gladis Lily", original: "Mrs. Gladis Lily", img: Gladis, p: "Description for the image" },
+  { id: 6, name: " Mrs. Gladis Lily", original: "Mrs. Gladis Lily", img: Gladis, p: "Member" },
   { id: 7, name: "Mrs.S.Maria Selvam", original: "Mrs.S.Maria Selvam", img: Maria, p: "Member" },
 
 
-  { id: 8, name: "Mr. Shaji", original: "Mr. Shaji", img: Shaji, p: "அன்பியம்-01" },
-  { id: 9, name: "Miss. Jeniba", original: "Miss. Jeniba", img: Jeniba, p: "கத்தோலிக்க சேவா சங்கம்" },
+  { id: 8, name: "Mr. Shaji", original: "Mr. Shaji", img: Shaji, p: "Member" },
+  { id: 9, name: "Miss. Jeniba", original: "Miss. Jeniba", img: Jeniba, p: "Member" },
+  { id: 11, name: "Mr. Jerin", original: "Mr. Jerin", img: Jerin, p: "Member" },
   { id: 10, name: "Mr. Ashwin A", original: "Mr. Ashwin A", img: Ashwin, p: "Member" },
-  { id: 11, name: "Mr. Jerin", original: "Mr. Jerin", img: Jerin, p: "Description for the image" },
+
 ];
 
 const OurParish = () => {

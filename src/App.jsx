@@ -57,15 +57,9 @@ import HeartConvent from "./components/HeartConvent";
 import Auditorium from "./components/Auditorium";
 import Substation from "./components/Substation";
 import VissionandMission from "./components/VissionandMission";
-import usePageTracking from "./components/usePageTracking";
+
 function App() {
   const location = useLocation();
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [location.pathname]);
-  
-  usePageTracking(); // ✅ This tracks every route change
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });

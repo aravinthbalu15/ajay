@@ -64,6 +64,14 @@ function App() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [location.pathname]);
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag('config', 'G-K5ME5WWLWC', {
+        page_path: location.pathname,
+      });
+    }
+  }, [location]);
+  
 
   return (
     <>

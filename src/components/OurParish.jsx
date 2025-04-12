@@ -23,7 +23,7 @@ const members = [
 const member1 = [
   { id: 2, name: "Mr. Richard Joseph Raj", original: "Mr. Richard Joseph Raj", img: Image2, p: "Vice President" },
   { id: 3, name: "Mrs. Jacqueline", original: "Mrs. Jacqulin", img: Image3, p: "Secretary" },
-  { id: 4, name: "Mrs. Charlet Rani", original: "Mrs. Charlet Rani", img: Image4, p: "Treasure" },
+  { id: 4, name: "Mrs. Charlet Rani", original: "Mrs. Charlet Rani", img: Image4, p: "Treasur" },
   { id: 5, name: "Mr.M. Jenish", original: "Mr. Jenish", img: Image5, p: "Co-Secretary" },
 ];
 
